@@ -1,0 +1,30 @@
+
+class Garage {
+  String roomId = "";
+  bool beenToGarage;
+
+  Garage(this.roomId, this.beenToGarage);
+
+  void moveToMainHall() {
+    print("you go back to the MainHall");
+    // add func.
+  }
+
+  void moveToCar() {
+    print("you walk over to the Car");
+    // add func.
+  }
+
+  void moveToShelf() {
+    print("you walked over to the Shelf");
+    // add func.
+  }
+
+  void moveToWorkBench() {
+    print("you walked over to the WorkBench");
+    // add func.
+  }
+
+
+}
+Garage garage = Garage("Garage", false);
