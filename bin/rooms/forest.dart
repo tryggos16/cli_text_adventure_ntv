@@ -5,11 +5,13 @@ class Forest {
 
   Forest(this.roomId, this.beenToForest);
 
-  void moveToMainHall() {
+  void enterShack() {
+    print("you moved into the main hall");
     // add func.
   }
   void doNothing() {
     print("you stand still and do nothing");
+    // maybe add func.
   }
 }
 Forest forest = Forest("Forest", false);

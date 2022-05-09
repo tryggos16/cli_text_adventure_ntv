@@ -13,6 +13,10 @@ class Player {
     // add func.
   }
 
+  void dropItem() {
+    // add func
+  }
+
   void breakItem() {
     // if (item == ???) - break
     // else - don't break
