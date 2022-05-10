@@ -7,22 +7,22 @@ class Garage {
 
   void moveToMainHall() {
     print("you go back to the MainHall");
-    // add func.
+    // todo add func.
   }
 
   void moveToCar() {
     print("you walk over to the Car");
-    // add func.
+    // todo add func.
   }
 
   void moveToShelf() {
     print("you walked over to the Shelf");
-    // add func.
+    // todo add func.
   }
 
   void moveToWorkBench() {
     print("you walked over to the WorkBench");
-    // add func.
+    // todo add func.
   }
 
 

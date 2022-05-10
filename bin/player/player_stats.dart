@@ -9,16 +9,17 @@ class Player {
   void openInventory() {
     print(player.inventory);
     print("do you wish to break something?");
-    // add itemHub.
-    // add func.
+    // todo add itemHub.
+    // todo add func.
   }
 
   void dropItem() {
-    // add func
+    //  todo add func
+
   }
 
   void breakItem() {
-    // if (item == ???) - break
+    // todo if (item == ???) - break
     // else - don't break
     // add func.
   }

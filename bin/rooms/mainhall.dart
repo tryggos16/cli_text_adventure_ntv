@@ -6,7 +6,7 @@ class MainHall {
   MainHall(this.roomId, this.beenToMainHall);
 
   void moveToGarage() {
-    // if(garage.beenToGarage == true) {
+    //  todo if(garage.beenToGarage == true) {
     //   print("you go to the Garage");
 
     //  // add func.
@@ -19,17 +19,17 @@ class MainHall {
 
   void moveToStairs() {
     print("you walked over to the Stairs");
-    // add func.
+    //  todo add func.
   }
 
   void moveToKitchen() {
     print("you walk into the Kitchen");
-    // add func.
+    // todo add func.
   }
 
-  void livingRoom() {
+  void moveToLivingRoom() {
     print("you walk in to the LivingRoom");
-    // add func.
+    //  todo add func.
   }
 }
 MainHall mainHall = MainHall("MainHall",false);

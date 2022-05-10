@@ -1,23 +1,23 @@
 
 class Office {
-  String roomid = "";
+  final String roomId;
   bool beenToOffice;
 
-  Office(this.roomid, this.beenToOffice);
+  Office(this.roomId, this.beenToOffice);
 
   void moveToOfficeDoor() {
     print("you walk back out the Office door");
-    // add func.
+    // todo add func.
   }
 
   void moveToPiano() {
     print("you walk up to the Piano");
-    // add func.
+    //  todo add func.
   }
 
   void moveToDesk() {
     print("you walk up to the Office Desk");
-    // add func.
+    //  todo add func.
   }
 
 

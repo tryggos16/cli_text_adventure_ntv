@@ -7,11 +7,11 @@ class Forest {
 
   void enterShack() {
     print("you moved into the main hall");
-    // add func.
+    // todo add func.
   }
   void doNothing() {
     print("you stand still and do nothing");
-    // maybe add func.
+    // todo maybe add func.
   }
 }
 Forest forest = Forest("Forest", false);
