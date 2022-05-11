@@ -1,3 +1,5 @@
+import '../player/player_stats.dart';
+import '../choices/mainhall_choices.dart';
 
 class Forest {
   String roomId = "";
@@ -7,7 +9,7 @@ class Forest {
 
   void enterShack() {
     print("you moved into the main hall");
-    // todo add func.
+    inMainHall();
   }
   void doNothing() {
     print("you stand still and do nothing");
@@ -15,3 +17,4 @@ class Forest {
   }
 }
 Forest forest = Forest("Forest", false);
+

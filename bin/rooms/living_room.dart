@@ -4,6 +4,7 @@ class LivingRoom {
   bool beenToLivingRoom;
   bool carrotOnFloor;
 
+
   LivingRoom(this.roomId, this.beenToLivingRoom, this.carrotOnFloor);
 
   void moveToMainHall() {
