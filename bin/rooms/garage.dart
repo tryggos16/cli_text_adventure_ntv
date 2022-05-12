@@ -1,4 +1,6 @@
 
+import '../choices/mainhall_choices.dart';
+
 class Garage {
   String roomId = "";
   bool beenToGarage;
@@ -7,7 +9,7 @@ class Garage {
 
   void moveToMainHall() {
     print("you go back to the MainHall");
-    // todo add func.
+    inMainHall();
   }
 
   void moveToCar() {

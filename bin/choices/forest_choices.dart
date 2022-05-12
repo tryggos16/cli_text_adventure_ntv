@@ -4,7 +4,7 @@ import '../player/player_stats.dart';
 
 
 
-
+// these are all the choices you can make while in the Forest
 void inForest() {
   player.location = forest.roomId;
   print("Location: ${player.location}");

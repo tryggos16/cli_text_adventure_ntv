@@ -1,13 +1,12 @@
 import 'dart:io';
 import '../player/player_stats.dart';
-import '../rooms/kitchen.dart';
 import '../rooms/mainhall.dart';
 
-
+// these are all the choices you can make while in the MainHall.
 void inMainHall() {
-  player.location = mainHall.roomId;
-  print("Location: ${player.location}");
   while(true) {
+    player.location = mainHall.roomId;
+    print("Location: ${player.location}");
     String? input = stdin.readLineSync();
     if(input == "1") {
       print("it worked");
@@ -24,8 +23,8 @@ void inMainHall() {
     } else if(input == "i") {
       player.openInventory();
 
-
-
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("invalid");

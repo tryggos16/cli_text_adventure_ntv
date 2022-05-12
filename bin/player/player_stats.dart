@@ -18,18 +18,18 @@ class Player {
       print("you closed the inventory");
     } else if(playerInput == "2") {
       dropItem();
+    } else {
+      print("Invalid");
     }
-
     // todo add itemHub.
-    // todo add func.
   }
 
   void dropItem() {
     print("what item do you wish to drop?");
     String? playerInput = stdin.readLineSync();
     if(player.inventory.contains(playerInput)) {
-      if(playerInput == "Carrot" && player.location == mainHall.roomId) {
-        print("its time");
+      if(playerInput == "carrot" && player.location == mainHall.roomId) {
+        print("you dropped the $playerInput");
         player.inventory.remove(playerInput);
         print(player.inventory);
       }
@@ -52,6 +52,10 @@ class Player {
     // add func.
   }
 
+  void helpInfo() {
+    print("to open Inventory press i. to quit type quit");
+  }
+
 
 }
-Player player = Player("", ["Carrot"]);
+Player player = Player("", ["carrot"]);
