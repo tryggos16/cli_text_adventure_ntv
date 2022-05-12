@@ -1,4 +1,6 @@
 
+import '../choices/garage_car_choices.dart';
+import '../choices/garage_shelf_choices.dart';
 import '../choices/mainhall_choices.dart';
 
 class Garage {
@@ -14,12 +16,12 @@ class Garage {
 
   void moveToCar() {
     print("you walk over to the Car");
-    // todo add func.
+    inGarageCar();
   }
 
   void moveToShelf() {
     print("you walked over to the Shelf");
-    // todo add func.
+    inGarageShelf();
   }
 
   void moveToWorkBench() {

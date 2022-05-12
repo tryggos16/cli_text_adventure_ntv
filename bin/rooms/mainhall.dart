@@ -1,4 +1,7 @@
 
+import '../choices/garage_choices.dart';
+import 'garage.dart';
+
 class MainHall {
   String roomId;
   bool beenToMainHall;
@@ -6,15 +9,15 @@ class MainHall {
   MainHall(this.roomId, this.beenToMainHall);
 
   void moveToGarage() {
-    //  todo if(garage.beenToGarage == true) {
-    //   print("you go to the Garage");
+    if(garage.beenToGarage == true) {
+      print("you go to the Garage");
+      inGarage();
+    } else {
+      print("you walk over to the tilted door");
+      garage.beenToGarage = true;
+      inGarage();
 
-    //  // add func.
-    // } else {
-    //   print("you walk over to the door");
-    //  // add func.
-    // }
-
+    }
   }
 
   void moveToStairs() {

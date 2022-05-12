@@ -1,12 +1,13 @@
 import 'dart:io';
 import '../player/player_stats.dart';
+import '../room_hud/mainhall_hud.dart';
 import '../rooms/mainhall.dart';
 
 // these are all the choices you can make while in the MainHall.
 void inMainHall() {
   while(true) {
     player.location = mainHall.roomId;
-    print("Location: ${player.location}");
+    mainHallHud();
     String? input = stdin.readLineSync();
     if(input == "1") {
       print("it worked");

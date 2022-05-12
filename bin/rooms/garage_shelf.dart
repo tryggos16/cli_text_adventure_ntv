@@ -1,4 +1,7 @@
 
+import '../choices/garage_choices.dart';
+import '../player/player_stats.dart';
+
 class GarageShelf {
   final String roomId;
   bool beenToGarageShelf;
@@ -7,7 +10,12 @@ class GarageShelf {
 
   void goBack() {
     print("you step away from the Shelf");
-    // todo add func.
+    inGarage();
+  }
+
+  void takeOilCan() {
+    print("you took the OilCan off the shelf");
+    player.inventory.add("oil");
   }
 
 
