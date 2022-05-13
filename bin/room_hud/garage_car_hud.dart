@@ -4,6 +4,7 @@ import '../items/picture_item.dart';
 import '../player/player_stats.dart';
 import '../rooms/garage_car.dart';
 
+// these are the options that the player will see on the screen.
 void garageCarHud() {
   if(garageCar.beenToCar == true) {
     print("----------");
@@ -25,6 +26,7 @@ void garageCarHud() {
   }
 }
 
+// these are the options that the player will see on the screen.
 void insideCarHud() {
   if(player.inventory.contains(picture.itemId)) {
     print("----------");
