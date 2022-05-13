@@ -1,12 +1,13 @@
 import 'dart:io';
 import '../player/player_stats.dart';
+import '../room_hud/garage_car_hud.dart';
 import '../rooms/garage_car.dart';
 
-// these are all the choices you can make while in the (Garage_car)
+// these are all the choices you can make while in (Garage_car)
 void inGarageCar() {
   while(true) {
     player.location = garageCar.roomId;
-    print("Location: ${player.location}");
+    garageCarHud();
     String? input = stdin.readLineSync();
     if(input == "1") {
       garageCar.goBack();
@@ -20,11 +21,11 @@ void inGarageCar() {
   }
 }
 
-// these are all the choices you can make while in the (inGarageCarDoor - func)
+// these are all the choices you can make while in (inGarageCarDoor - func)
 void inGarageCarDoor() {
   while(true) {
     player.location = garageCar.roomId;
-    print("Location: ${player.location}");
+    insideCarHud();
     String? input = stdin.readLineSync();
     if(input == "1"){
       garageCar.goBack();

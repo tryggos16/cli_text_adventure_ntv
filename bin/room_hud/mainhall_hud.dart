@@ -1,22 +1,23 @@
 
-
 import '../player/player_stats.dart';
 import '../rooms/garage.dart';
 import '../rooms/mainhall.dart';
 
+
+// these are the options that the player will see on the screen.
 void mainHallHud() {
   if(mainHall.beenToMainHall == true) {
     if(garage.beenToGarage == true) {
-      print("Location: ${player.location}");
       print("----------");
+      print("Location: ${player.location}");
       print("1. go to Garage");
       print("2. got to Stairs");
       print("3. go to Kitchen");
       print("4. go to Living room");
       print("----------");
     } else {
-      print("Location: ${player.location}");
       print("----------");
+      print("Location: ${player.location}");
       print("1. go to the tilted door");
       print("2. got to Stairs");
       print("3. go to Kitchen");
@@ -25,10 +26,10 @@ void mainHallHud() {
     }
   }
   else {
+    // todo add Text.
     mainHall.beenToMainHall = true;
-    print("Location: ${player.location}");
-    print(mainHall.beenToMainHall);
     print("----------");
+    print("Location: ${player.location}");
     print("1. go to tilted door");
     print("2. got to Stairs");
     print("3. go to Kitchen");

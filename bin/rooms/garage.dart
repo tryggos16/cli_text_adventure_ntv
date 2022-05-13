@@ -1,10 +1,9 @@
-
 import '../choices/garage_car_choices.dart';
 import '../choices/garage_shelf_choices.dart';
 import '../choices/mainhall_choices.dart';
 
 class Garage {
-  String roomId = "";
+  final String roomId;
   bool beenToGarage;
 
   Garage(this.roomId, this.beenToGarage);
