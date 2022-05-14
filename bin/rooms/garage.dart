@@ -15,7 +15,7 @@ class Garage {
 
   void moveToCar() {
     print("you walk over to the Car");
-    inGarageCar();
+    byGarageCar();
   }
 
   void moveToShelf() {

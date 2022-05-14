@@ -3,6 +3,7 @@
 import '../items/picture_item.dart';
 import '../player/player_stats.dart';
 import '../rooms/garage_car.dart';
+import '../rooms/garage_inside_car.dart';
 
 // these are the options that the player will see on the screen.
 void garageCarHud() {
@@ -27,18 +28,3 @@ void garageCarHud() {
 }
 
 // these are the options that the player will see on the screen.
-void insideCarHud() {
-  if(player.inventory.contains(picture.itemId)) {
-    print("----------");
-    print("Location: ${player.location}");
-    print("1. go back");
-    print("----------");
-  } else {
-    print("----------");
-    print("Location: ${player.location}");
-    print("1. go back");
-    print("2 open GlowBox");
-    print("----------");
-  }
-
-}

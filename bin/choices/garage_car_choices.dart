@@ -1,10 +1,12 @@
 import 'dart:io';
+import '../items/picture_item.dart';
 import '../player/player_stats.dart';
 import '../room_hud/garage_car_hud.dart';
 import '../rooms/garage_car.dart';
+import '../rooms/garage_inside_car.dart';
 
 // these are all the choices you can make while in (Garage_car)
-void inGarageCar() {
+void byGarageCar() {
   while(true) {
     player.location = garageCar.roomId;
     garageCarHud();
@@ -21,25 +23,8 @@ void inGarageCar() {
   }
 }
 
-// these are all the choices you can make while in (inGarageCarDoor - func)
-void inGarageCarDoor() {
-  while(true) {
-    player.location = garageCar.roomId;
-    insideCarHud();
-    String? input = stdin.readLineSync();
-    if(input == "1"){
-      garageCar.goBack();
-    } else if(!player.inventory.contains("picture")) {
-      print("you open the gloveBox and find a picture");
-      player.inventory.add("picture");
-      // add picture to inventory
-      // todo make work
-    }
-    else {
-      print("invalid");
-    }
-  }
-}
+// these are all the choices you can make while in (inGarageCar - func)
+
 
 // these are all the choices you can make while in the (Garage Car Hood)
 // void inGarageCarHood() {

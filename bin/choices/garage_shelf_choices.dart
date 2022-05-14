@@ -15,6 +15,8 @@ void inGarageShelf() {
       garageShelf.goBack();
     } else if(!player.inventory.contains(oil.itemId) && input == "2") {
       player.pickUpItem(oil.itemId);
+      oil.itemTaken = true;
+
     }
     else {
       print("Invalid");

@@ -66,13 +66,13 @@ class Player {
     print("------");
     String? playerInput = stdin.readLineSync();
     if(player.inventory.contains(playerInput)) {
-      if(playerInput == "oil") {
+      if(playerInput == oil.itemId) {
         oil.use();
 
-      } else if(playerInput == "lamp") {
+      } else if(playerInput == lamp.itemId) {
         lamp.use();
 
-      } else if(playerInput == "carrot") {
+      } else if(playerInput == carrot.itemId) {
         carrot.use();
       }
     }
