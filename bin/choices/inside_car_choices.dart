@@ -14,7 +14,7 @@ void inGarageCar() {
     String? input = stdin.readLineSync();
     if(input == "1"){
       insideCar.goBack();
-    } else if(!player.inventory.contains(picture.itemId) && input == "2") {
+    } else if(input == "2") {
       insideCar.openGlowBox();
       // todo make work
     }

@@ -1,3 +1,9 @@
+import 'dart:io';
+import '../choices/kitchen_choices.dart';
+import '../choices/kitchen_frig_open_choices.dart';
+import '../items/carrot_item.dart';
+import '../player/player_stats.dart';
+import 'kitchen_frig_open.dart';
 
 class KitchenFrig {
   final String roomId;
@@ -8,16 +14,18 @@ class KitchenFrig {
 
   void goBack() {
     print("you move away from the Frig");
-    // todo add func
+    inKitchen();
   }
 
-  void openFrig() {
+  void openFrigDoor() {
     print("you open the Refrigerator");
-    // todo add func.
-  }
-
-  void takeCarrot() {
-    print("you take the carrot out of the Frig");
+    insideKitchenFrig();
+    String? input = stdin.readLineSync();
+    if(input == "1") {
+      openFrig.takeOrClose();
+    } else if(input == "2") {
+      inKitchen();
+    }
   }
 
 }

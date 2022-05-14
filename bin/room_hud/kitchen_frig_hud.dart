@@ -1,26 +1,26 @@
 
-
 import '../player/player_stats.dart';
-import '../rooms/garage_inside_car.dart';
+import '../rooms/kitchen.dart';
+import '../rooms/kitchen_frig.dart';
 
 
-// these ar the options that the player will see ( insideCar )
-void insideCarHud() {
-  if(insideCar.beenInsideCar == true) {
+// these are the options that the player will see on the screen.
+void kitchenFrigHud() {
+  if(kitchenFrig.bennToKitchenFrig == true) {
     print("----------");
     print("Location: ${player.location}");
     print("1. go back");
-    print("2. open GlowBox");
+    print("2. open the frig");
     print("----------");
   }
   else {
     // todo add Text.
-    insideCar.beenInsideCar = true;
+    kitchenFrig.bennToKitchenFrig = true;
     print("----------");
     print("Location: ${player.location}");
     print("1. go back");
-    print("2. open GlowBox");
-    //insideCar.openGlowBox();
+    print("2. open the frig");
     print("----------");
+
   }
 }

@@ -8,7 +8,7 @@ class Forest {
   Forest(this.roomId, this.beenToForest);
 
   void enterShack() {
-    print("you moved into the main hall");
+    print("you moved into the MainHall");
     inMainHall();
   }
   void doNothing() {

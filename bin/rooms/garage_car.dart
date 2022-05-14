@@ -20,14 +20,12 @@ class GarageCar {
   void openCarDoor() {
     print("you open the car and look inside");
     inGarageCar();
-    // todo add own hud
   }
 
 
   void goBack() {
     print("you step away from the car");
     inGarage();
-    // todo add func.
   }
 
 

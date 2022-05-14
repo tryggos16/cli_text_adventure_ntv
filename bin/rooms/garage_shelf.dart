@@ -1,5 +1,6 @@
 
 import '../choices/garage_choices.dart';
+import '../items/oil_item.dart';
 import '../player/player_stats.dart';
 
 class GarageShelf {
@@ -12,13 +13,6 @@ class GarageShelf {
     print("you step away from the Shelf");
     inGarage();
   }
-
-  void takeOilCan() {
-    print("you took the OilCan off the shelf");
-    player.inventory.add("oil");
-  }
-
-
 
 
 }

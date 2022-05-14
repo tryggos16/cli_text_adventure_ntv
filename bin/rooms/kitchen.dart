@@ -1,9 +1,17 @@
 
+import '../choices/kitchen_frig_choices.dart';
+import '../choices/mainhall_choices.dart';
+import 'kitchen_frig.dart';
+
 class Kitchen {
   final String roomId;
   bool beenToKitchen;
 
   Kitchen(this.roomId, this.beenToKitchen);
+
+  void moveToMainHall() {
+    inMainHall();
+  }
 
   void moveToDiningRoom() {
     print("you walk into the DiningRoom");
@@ -12,7 +20,7 @@ class Kitchen {
 
   moveToFrig() {
     print("you walk up to the Refrigerator");
-    // todo add func.
+    byKitchenFrig();
   }
 
 

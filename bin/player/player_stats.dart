@@ -2,6 +2,7 @@ import 'dart:io';
 import '../items/carrot_item.dart';
 import '../items/lamp_item.dart';
 import '../items/oil_item.dart';
+import '../items/picture_item.dart';
 import '../rooms/mainhall.dart';
 
 class Player {
@@ -74,6 +75,10 @@ class Player {
 
       } else if(playerInput == carrot.itemId) {
         carrot.use();
+
+      } else if(playerInput == picture.itemId) {
+        picture.viewPicture();
+
       }
     }
   }
@@ -90,4 +95,4 @@ class Player {
 
 
 }
-Player player = Player("", ["carrot", "lamp"]);
+Player player = Player("", []);

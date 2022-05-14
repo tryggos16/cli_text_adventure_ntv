@@ -7,7 +7,7 @@ class Picture {
   Picture(this.itemId, this.itemTaken);
 
   void viewPicture() {
-    print("it a drawn picture of 3 Rabbits and a Owl inFront of an old Shack.");
+    print("it a drawn picture of 3 Rabbits and a Owl inFront of an old House.");
   }
 
   void itemTouched() {
@@ -15,7 +15,6 @@ class Picture {
       print("2. take Picture");
     }
     else {
-      print("its empty");
     }
   }
 
