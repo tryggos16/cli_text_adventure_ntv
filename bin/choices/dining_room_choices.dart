@@ -14,7 +14,7 @@ void inDiningRoom() {
     if(input == "1") {
       diningRoom.moveToKitchen();
     } else if(input == "2") {
-      diningRoom.moveToKitchen();
+      diningRoom.moveToLivingRoom();
     }
     else {
       print("Invalid");

@@ -1,5 +1,6 @@
 
 import '../choices/kitchen_choices.dart';
+import '../choices/living_room.dart';
 
 class DiningRoom {
   final String roomId;
@@ -9,7 +10,7 @@ class DiningRoom {
 
   void moveToLivingRoom() {
     print("you walk into the LivingRoom");
-    // todo add func.
+    inLivingRoom();
   }
 
   void moveToKitchen() {

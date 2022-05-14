@@ -1,5 +1,6 @@
 
 import '../choices/dining_room_choices.dart';
+import '../choices/living_room_tv_choices.dart';
 import '../choices/mainhall_choices.dart';
 
 class LivingRoom {
@@ -22,7 +23,7 @@ class LivingRoom {
 
   void moveToTv() {
     print("you walk over to the Tv");
-    // todo add func.
+    byTv();
   }
 
   void catchRabbit() {

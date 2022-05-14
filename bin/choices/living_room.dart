@@ -15,7 +15,7 @@ void inLivingRoom() {
     } else if(input == "2") {
       livingRoom.moveToDiningRoom();
     } else if(input == "3") {
-      // todo add moveToTV - func
+      livingRoom.moveToTv();
     } else if(input == "4") {
       // todo add CatchRabbit - func
     }
