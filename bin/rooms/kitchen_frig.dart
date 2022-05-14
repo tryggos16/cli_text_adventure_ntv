@@ -18,7 +18,12 @@ class KitchenFrig {
   }
 
   void openFrigDoor() {
-    print("you open the Refrigerator");
+    if(carrot.itemTaken == true) {
+      print("the Frig is empty.");
+    } else {
+      print("you open the Refrigerator");
+    }
+
     insideKitchenFrig();
     String? input = stdin.readLineSync();
     if(input == "1") {

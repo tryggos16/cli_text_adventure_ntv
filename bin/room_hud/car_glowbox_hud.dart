@@ -6,7 +6,6 @@ import '../rooms/garage_inside_car.dart';
 
 void carGlowBoxHud() {
   if(insideCar.beenInsideCar == true) {
-    player.location;
     print("----------");
     print("1. go back");
     picture.itemTouched();
@@ -15,7 +14,6 @@ void carGlowBoxHud() {
   else {
     // todo add Text.
     insideCar.beenInsideCar = true;
-    player.location;
     print("----------");
     print("1. go back");
     picture.itemTouched();

@@ -1,6 +1,7 @@
 
 import '../choices/garage_choices.dart';
 import '../choices/kitchen_choices.dart';
+import '../choices/living_room.dart';
 import 'garage.dart';
 
 class MainHall {
@@ -33,7 +34,7 @@ class MainHall {
 
   void moveToLivingRoom() {
     print("you walk in to the LivingRoom");
-    //  todo add func.
+    inLivingRoom();
   }
 }
 MainHall mainHall = MainHall("MainHall",false);

@@ -15,7 +15,7 @@ void inKitchen() {
     if(input == "1") {
       kitchen.moveToMainHall();
     } else if(input == "2") {
-      // todo add func.
+      kitchen.moveToDiningRoom();
     } else if(input == "3") {
       kitchen.moveToFrig();
     } else if(input == "i") {

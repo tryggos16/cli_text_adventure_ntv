@@ -14,8 +14,8 @@ class Player {
   void openInventory() {
     print("----------");
     print("Inventory: ${player.inventory}");
-    print("press 1 to go back.");
-    print("press 2 to use item");
+    print("press 1 to close Inventory.");
+    print("press 2 to use Item");
     print("press 3 to dropItem");
     print("----------");
     String? playerInput = stdin.readLineSync();
