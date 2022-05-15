@@ -16,7 +16,7 @@ void insideKitchenFrig() {
       openFrig.moveBack();
     } else if(!player.inventory.contains(carrot.itemId) && input == "2") {
       player.pickUpItem(carrot.itemId);
-      carrot.itemTaken = true;
+      carrot.hasItem = true;
     }
     else {
       print("Invalid");

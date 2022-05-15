@@ -1,10 +1,11 @@
 
 class Lamp {
   final String itemId;
+  bool hasItem;
   bool hasOil;
   bool lampUp;
 
-  Lamp(this.itemId, this.hasOil, this.lampUp);
+  Lamp(this.itemId, this.hasOil, this.lampUp, this.hasItem);
 
   void use() {
     if(hasOil == true) {
@@ -16,6 +17,12 @@ class Lamp {
     }
   }
 
+  void hasLampCheck() {
+    if(hasItem == false) {
+      print("2. take Lamp");
+    }
+  }
+
 
 }
-Lamp lamp = Lamp("lamp", false, false);
+Lamp lamp = Lamp("lamp", false, false, false);

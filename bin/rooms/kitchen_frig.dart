@@ -18,7 +18,7 @@ class KitchenFrig {
   }
 
   void openFrigDoor() {
-    if(carrot.itemTaken == true) {
+    if(carrot.hasItem == true) {
       print("the Frig is empty.");
     } else {
       print("you open the Refrigerator");

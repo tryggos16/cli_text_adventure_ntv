@@ -14,7 +14,7 @@ void garageHud() {
   }
   else {
     // todo add Text.
-    garage.beenToGarage == true;
+    garage.beenToGarage = true;
     print("----------");
     print("Location: ${player.location}");
     print("1. go to MainHall");

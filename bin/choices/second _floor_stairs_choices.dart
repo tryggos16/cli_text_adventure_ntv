@@ -2,6 +2,7 @@
 import 'dart:io';
 import '../player/player_stats.dart';
 import '../room_hud/second_floor_stairs_hud.dart';
+import '../rooms/office_door.dart';
 import '../rooms/second_floor_stairs.dart';
 import 'mainhall_stairs_choices.dart';
 
@@ -14,14 +15,12 @@ void bySecondFloorStairs() {
     if(input == "1") {
       byMainHallStairs();
     } else if(input == "2") {
-      // if(officeDoor.open == true){
-      //   inOffice;
-      // }
-      // else {
-      //   byOfficeDoor;
-      // }
-      // todo add byOfficeDoor
+      if(officeDoor.isOpen == true) {
+        // todo move to office
+      }
+      else {
+        secondFloorStairs.moveToOfficeDoor();
+      }
     }
-
   }
 }

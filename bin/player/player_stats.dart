@@ -1,6 +1,7 @@
 import 'dart:io';
 import '../items/carrot_item.dart';
 import '../items/lamp_item.dart';
+import '../items/officekey_item.dart';
 import '../items/oil_item.dart';
 import '../items/picture_item.dart';
 import '../rooms/living_room.dart';
@@ -70,6 +71,9 @@ class Player {
         picture.viewPicture();
 
       }
+      else {
+        print("you dont have that item");
+      }
     }
   }
 
@@ -85,4 +89,4 @@ class Player {
 
 
 }
-Player player = Player("", []);
+Player player = Player("", [officeKey.itemId]);

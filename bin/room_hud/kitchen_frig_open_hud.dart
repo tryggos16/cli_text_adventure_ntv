@@ -10,7 +10,7 @@ void insideFrigHud() {
     print("----------");
     print("Location: ${player.location}");
     print("1. close Frig");
-    carrot.itemTouchedCheck();
+    carrot.hasCarrotCheck();
     print("----------");
   }
   else {
@@ -19,7 +19,7 @@ void insideFrigHud() {
     print("----------");
     print("Location: ${player.location}");
     print("1. close Frig");
-    carrot.itemTouchedCheck();
+    carrot.hasCarrotCheck();
     print("----------");
   }
 }

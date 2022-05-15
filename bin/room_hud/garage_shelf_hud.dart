@@ -11,7 +11,7 @@ void garageShelfHud() {
     print("----------");
     print("Location: ${player.location}");
     print("1. go back");
-    oil.itemTouchedCheck();
+    oil.hasOilCheck();
     print("----------");
   }
   else {
@@ -20,7 +20,7 @@ void garageShelfHud() {
     print("----------");
     print("Location: ${player.location}");
     print("1. go back");
-    oil.itemTouchedCheck();
+    oil.hasOilCheck();
     print("----------");
   }
 }

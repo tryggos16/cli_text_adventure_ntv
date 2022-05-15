@@ -11,7 +11,7 @@ void mainHallHud() {
       print("----------");
       print("Location: ${player.location}");
       print("1. go to Garage");
-      print("2. got to Stairs");
+      print("2. go to Stairs");
       print("3. go to Kitchen");
       print("4. go to Living room");
       print("----------");
@@ -19,7 +19,7 @@ void mainHallHud() {
       print("----------");
       print("Location: ${player.location}");
       print("1. go to the tilted door");
-      print("2. got to Stairs");
+      print("2. go to Stairs");
       print("3. go to Kitchen");
       print("4. go to Living room");
       print("----------");

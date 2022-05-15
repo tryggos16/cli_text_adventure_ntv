@@ -1,5 +1,6 @@
 
 import '../choices/mainhall_choices.dart';
+import '../choices/second _floor_stairs_choices.dart';
 
 class MainHallStairs {
   final String roomId;
@@ -9,10 +10,9 @@ class MainHallStairs {
 
   void moveUpStairs() {
     print("you walked up the stairs to the secondFloor");
-
-    // todo add func.
-
+    bySecondFloorStairs();
   }
+
   void goBack() {
     print("you walked away from the Stairs");
     inMainHall();
