@@ -17,6 +17,7 @@ class BrownRabbit {
   }
 
   void talkToRabbit() {
+    // todo add Text log
     print("hello Stranger");
   }
 

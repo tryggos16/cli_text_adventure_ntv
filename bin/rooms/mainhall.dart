@@ -2,7 +2,10 @@
 import '../choices/garage_choices.dart';
 import '../choices/kitchen_choices.dart';
 import '../choices/living_room_choices.dart';
+import '../choices/mainhall_stairs_choices.dart';
 import 'garage.dart';
+import 'kitchen.dart';
+import 'living_room.dart';
 
 class MainHall {
   String roomId;
@@ -16,7 +19,6 @@ class MainHall {
       inGarage();
     } else {
       print("you walk over to the tilted door");
-      garage.beenToGarage = true;
       inGarage();
 
     }
@@ -24,7 +26,7 @@ class MainHall {
 
   void moveToStairs() {
     print("you walked over to the Stairs");
-    //  todo add func.
+    byMainHallStairs();
   }
 
   void moveToKitchen() {

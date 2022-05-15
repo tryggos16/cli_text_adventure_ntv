@@ -1,4 +1,6 @@
 
+import '../choices/mainhall_choices.dart';
+
 class MainHallStairs {
   final String roomId;
   bool beenToMainHallStairs;
@@ -7,13 +9,13 @@ class MainHallStairs {
 
   void moveUpStairs() {
     print("you walked up the stairs to the secondFloor");
+
     // todo add func.
 
   }
   void goBack() {
     print("you walked away from the Stairs");
-    // todo add func.
-
+    inMainHall();
   }
 
 }

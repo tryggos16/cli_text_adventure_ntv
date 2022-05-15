@@ -36,11 +36,6 @@ class LivingRoom {
     else {
       print("the Rabbit is to fast, you have to distract it some how");
     }
-
-    // todo if(carrot == true) - catchRabbit - else { print("its too fast }
-
-    // todo add func.
-
   }
 
 

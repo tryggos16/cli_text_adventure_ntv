@@ -48,14 +48,6 @@ class Player {
     } else {
       print("i don't think that's gonna help");
     }
-    // if(player.location == mainHall.roomId) {
-    //   print("you placed the carrot on the floor");
-    //   player.inventory.remove("Carrot");
-    // } else {
-    //   print("i don't think this is gonna help");
-    // }
-    //  todo add func
-
   }
 
   void useItem() {

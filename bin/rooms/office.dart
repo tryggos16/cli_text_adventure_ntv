@@ -5,8 +5,8 @@ class Office {
 
   Office(this.roomId, this.beenToOffice);
 
-  void moveToOfficeDoor() {
-    print("you walk back out the Office door");
+  void moveToSecondFloorStairs() {
+    print("you walk out the Office");
     // todo add func.
   }
 

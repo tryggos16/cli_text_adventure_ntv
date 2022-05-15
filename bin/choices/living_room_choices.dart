@@ -18,7 +18,7 @@ void inLivingRoom() {
     } else if(input == "3") {
       livingRoom.moveToTv();
     } else if(input == "4") {
-      if(brownRabbit.rabbitGot) {
+      if(brownRabbit.rabbitGot == true) {
         brownRabbit.talkToRabbit();
       }
       else {
