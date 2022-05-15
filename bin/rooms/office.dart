@@ -1,4 +1,6 @@
 
+import '../choices/second _floor_stairs_choices.dart';
+
 class Office {
   final String roomId;
   bool beenToOffice;
@@ -7,7 +9,7 @@ class Office {
 
   void moveToSecondFloorStairs() {
     print("you walk out the Office");
-    // todo add func.
+    bySecondFloorStairs();
   }
 
   void moveToPiano() {

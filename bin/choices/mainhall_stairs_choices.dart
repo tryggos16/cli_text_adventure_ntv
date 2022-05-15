@@ -1,7 +1,7 @@
 
 import 'dart:io';
 import '../player/player_stats.dart';
-import '../room_hud/mainhall_stairs.dart';
+import '../room_hud/mainhall_stairs_hud.dart';
 import '../rooms/mainhall_stairs.dart';
 import 'second _floor_stairs_choices.dart';
 

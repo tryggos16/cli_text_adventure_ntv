@@ -16,12 +16,18 @@ class BrownRabbit {
     }
   }
 
-  void talkToRabbit() {
-    // todo add Text log
-    // todo white rabbit appear = true.
-    print("hello Stranger");
-  }
 
+  int textNum = 0;
+  void talkToRabbit() {
+    if(textNum >= 4) {
+      // todo white rabbit appear = true.
+      print("go away, im watching TV");
+    }
+    else {
+      // todo add Text log [textNum]
+      textNum += 1;
+    }
+  }
 
 }
 BrownRabbit brownRabbit = BrownRabbit("Brown Rabbit", false);

@@ -27,4 +27,4 @@ class OfficeKey {
   }
 
 }
-OfficeKey officeKey = OfficeKey("officeKey", false);
+OfficeKey officeKey = OfficeKey("officeKey", true);

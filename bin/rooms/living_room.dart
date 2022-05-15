@@ -29,7 +29,7 @@ class LivingRoom {
 
   void catchRabbit() {
     if(carrotOnFloor == true) {
-      print("you caught the Rabbit");
+      print("after distracting the rabbit with the carrot, you were able to catch it");
       brownRabbit.rabbitGot = true;
       // todo add Text
     }
