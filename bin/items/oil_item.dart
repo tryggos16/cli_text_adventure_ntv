@@ -21,12 +21,10 @@ class Oil {
     }
   }
 
-  void itemTouched() {
+  // this will show up on the ( garage_shelf_hud )
+  void itemTouchedCheck() {
     if(itemTaken == false) {
       print("2. take Oil");
-    }
-    else {
-
     }
   }
 

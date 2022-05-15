@@ -3,6 +3,7 @@ import '../items/carrot_item.dart';
 import '../items/lamp_item.dart';
 import '../items/oil_item.dart';
 import '../items/picture_item.dart';
+import '../rooms/living_room.dart';
 import '../rooms/mainhall.dart';
 
 class Player {
@@ -41,11 +42,8 @@ class Player {
     print("what item do you wish to drop?");
     String? playerInput = stdin.readLineSync();
     if(player.inventory.contains(playerInput)) {
-      if(playerInput == "carrot" && player.location == mainHall.roomId) {
+      if(playerInput == carrot.itemId && player.location == livingRoom.roomId) {
         carrot.dropCarrot();
-      }
-      else {
-        print("that is not gonna help");
       }
     } else {
       print("i don't think that's gonna help");

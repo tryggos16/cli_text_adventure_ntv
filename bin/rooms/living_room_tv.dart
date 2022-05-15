@@ -1,7 +1,7 @@
 
 import 'dart:io';
 
-import '../choices/living_room.dart';
+import '../choices/living_room_choices.dart';
 
 class TV {
   final String roomId;
@@ -16,23 +16,21 @@ class TV {
 
   void turnOnOffHud() {
     if(tvIsOn == false) {
-      print("2. turn the TV on");
+      print("2. turn the TV ON");
 
     } else {
-      print("2. turn the TV off");
+      print("2. turn the TV OFF");
     }
-
   }
 
   void turnPower() {
     if(tvIsOn == false) {
-      print("you turned the TV On");
+      print("you turned the TV ON");
       tvIsOn = true;
     } else {
-      print("you turned the TV Off");
+      print("you turned the TV OFF");
       tvIsOn = false;
     }
-
   }
 
 

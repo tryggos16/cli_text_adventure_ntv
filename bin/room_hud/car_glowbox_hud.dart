@@ -8,7 +8,7 @@ void carGlowBoxHud() {
   if(insideCar.beenInsideCar == true) {
     print("----------");
     print("1. go back");
-    picture.itemTouched();
+    picture.itemTouchedCheck();
     print("----------");
   }
   else {
@@ -16,7 +16,7 @@ void carGlowBoxHud() {
     insideCar.beenInsideCar = true;
     print("----------");
     print("1. go back");
-    picture.itemTouched();
+    picture.itemTouchedCheck();
     print("----------");
   }
 }

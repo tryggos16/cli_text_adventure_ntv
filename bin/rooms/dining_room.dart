@@ -1,6 +1,6 @@
 
 import '../choices/kitchen_choices.dart';
-import '../choices/living_room.dart';
+import '../choices/living_room_choices.dart';
 
 class DiningRoom {
   final String roomId;

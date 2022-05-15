@@ -10,11 +10,10 @@ class Picture {
     print("it a drawn picture of 3 Rabbits and a Owl inFront of an old House.");
   }
 
-  void itemTouched() {
+  // this will show up in the ( garage_glowBox_hud )
+  void itemTouchedCheck() {
     if(itemTaken == false) {
       print("2. take Picture");
-    }
-    else {
     }
   }
 

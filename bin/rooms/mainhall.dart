@@ -1,7 +1,7 @@
 
 import '../choices/garage_choices.dart';
 import '../choices/kitchen_choices.dart';
-import '../choices/living_room.dart';
+import '../choices/living_room_choices.dart';
 import 'garage.dart';
 
 class MainHall {

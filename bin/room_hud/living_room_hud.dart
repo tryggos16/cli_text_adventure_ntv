@@ -1,5 +1,6 @@
 
 
+import '../npc/brown_rabbit.dart';
 import '../player/player_stats.dart';
 import '../rooms/living_room.dart';
 
@@ -10,7 +11,7 @@ void livingRoomHud() {
     print("1. go to the MainHall");
     print("2. go to the Dining Room");
     print("3. look at the TV");
-    print("4. Catch the Rabbit");
+    brownRabbit.rabbitCaughtCheck();
     print("----------");
   }
   else {
@@ -21,7 +22,7 @@ void livingRoomHud() {
     print("1. go to the MainHall");
     print("2. go to the Dining Room");
     print("3. look at the TV");
-    print("4. Catch the Rabbit");
+    brownRabbit.rabbitCaughtCheck();
     print("----------");
   }
 }

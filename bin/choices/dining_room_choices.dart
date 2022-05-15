@@ -3,7 +3,7 @@ import 'dart:io';
 import '../player/player_stats.dart';
 import '../room_hud/dining_room_hud.dart';
 import '../rooms/dining_room.dart';
-import 'living_room.dart';
+import 'living_room_choices.dart';
 
 void inDiningRoom() {
   while(true) {

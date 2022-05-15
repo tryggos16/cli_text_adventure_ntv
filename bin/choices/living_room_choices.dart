@@ -1,5 +1,6 @@
 
 import 'dart:io';
+import '../npc/brown_rabbit.dart';
 import '../player/player_stats.dart';
 import '../room_hud/living_room_hud.dart';
 import '../rooms/living_room.dart';
@@ -17,7 +18,14 @@ void inLivingRoom() {
     } else if(input == "3") {
       livingRoom.moveToTv();
     } else if(input == "4") {
-      // todo add CatchRabbit - func
+      if(brownRabbit.rabbitGot) {
+        brownRabbit.talkToRabbit();
+      }
+      else {
+        livingRoom.catchRabbit();
+      }
+    } else if(input == "i") {
+      player.openInventory();
     }
   }
 }

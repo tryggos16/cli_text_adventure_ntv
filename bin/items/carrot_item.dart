@@ -10,7 +10,7 @@ class Carrot {
   Carrot(this.itemId, this.itemTaken);
 
   void use() {
-    print("try to eat the Carrot, but you won't");
+    print("you think of eating the carrot, but it could be used for something else");
   }
 
   void dropCarrot() {
@@ -19,12 +19,10 @@ class Carrot {
     livingRoom.carrotOnFloor = true;
   }
 
-  void itemTouched() {
+  // this will show up on the ( kitchen_frig_open_hud )
+  void itemTouchedCheck() {
     if(itemTaken == false) {
       print("2. take Carrot");
-    }
-    else {
-
     }
   }
 

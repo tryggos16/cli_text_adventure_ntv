@@ -2,6 +2,7 @@
 import '../choices/dining_room_choices.dart';
 import '../choices/living_room_tv_choices.dart';
 import '../choices/mainhall_choices.dart';
+import '../npc/brown_rabbit.dart';
 
 class LivingRoom {
   final String roomId;
@@ -27,6 +28,14 @@ class LivingRoom {
   }
 
   void catchRabbit() {
+    if(carrotOnFloor == true) {
+      print("you caught the Rabbit");
+      brownRabbit.rabbitGot = true;
+      // todo add Text
+    }
+    else {
+      print("the Rabbit is to fast, you have to distract it some how");
+    }
 
     // todo if(carrot == true) - catchRabbit - else { print("its too fast }
 
