@@ -22,6 +22,7 @@ class OfficeKey {
   void hasOfficeKeyCheck() {
     if(hasItem == false) {
       print("3. take Key");
+      // todo make findable only after white Rabbit appears!
     }
   }
 

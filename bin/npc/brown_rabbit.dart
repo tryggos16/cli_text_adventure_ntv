@@ -18,6 +18,7 @@ class BrownRabbit {
 
   void talkToRabbit() {
     // todo add Text log
+    // todo white rabbit appear = true.
     print("hello Stranger");
   }
 

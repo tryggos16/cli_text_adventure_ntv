@@ -15,7 +15,7 @@ void byOfficeDoor() {
       bySecondFloorStairs();
     } else if(input == "2") {
       officeDoor.openOfficeDoor();
-    }
+    } // todo else if(white Rabbit check && input == "3) { pick up Key }
     else {
       print("Invalid");
     }
