@@ -1,4 +1,5 @@
 
+import '../choices/office_desk_choices.dart';
 import '../choices/second _floor_stairs_choices.dart';
 
 class Office {
@@ -19,7 +20,7 @@ class Office {
 
   void moveToDesk() {
     print("you walk up to the Office Desk");
-    //  todo add func.
+    byOfficeDesk();
   }
 
 

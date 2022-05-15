@@ -1,6 +1,9 @@
 
 import '../choices/mainhall_stairs_choices.dart';
+import '../choices/office_choices.dart';
 import '../choices/office_door_choices.dart';
+import 'office.dart';
+import 'office_door.dart';
 
 class SecondFloorStairs {
   final String roomId;
@@ -14,9 +17,22 @@ class SecondFloorStairs {
   }
 
   void moveToOfficeDoor() {
-    print("you walked to the Office door");
+    if(office.beenToOffice == true) {
+      print("you move into the Office");
+      inOffice();
+    }
+    print("you walk up to the Office door");
     byOfficeDoor();
-    // todo add func.
+  }
+
+  // this will show up on the ( Second_floor_Stairs_Hud )
+  void beenToOfficeCheck() {
+    if(office.beenToOffice == true) {
+      print("2. go to the Office");
+    }
+    else {
+      print("2. go to the door on the right");
+    }
   }
 
 }

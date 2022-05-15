@@ -15,12 +15,7 @@ void bySecondFloorStairs() {
     if(input == "1") {
       byMainHallStairs();
     } else if(input == "2") {
-      if(officeDoor.isOpen == true) {
-        // todo move to office
-      }
-      else {
-        secondFloorStairs.moveToOfficeDoor();
-      }
+      secondFloorStairs.moveToOfficeDoor();
     }
   }
 }

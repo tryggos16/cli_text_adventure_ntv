@@ -8,7 +8,7 @@ void secondFloorStairsHud() {
     print("----------");
     print("Location: ${player.location}");
     print("1. go down Stairs");
-    print("2. go to the door on the right");
+    secondFloorStairs.beenToOfficeCheck();
     print("----------");
   }
   else {
@@ -17,7 +17,7 @@ void secondFloorStairsHud() {
     print("----------");
     print("Location: ${player.location}");
     print("1. go down Stairs");
-    print("2. go to the door on the right");
+    secondFloorStairs.beenToOfficeCheck();
     print("----------");
   }
 }

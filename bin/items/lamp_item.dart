@@ -19,7 +19,7 @@ class Lamp {
 
   void hasLampCheck() {
     if(hasItem == false) {
-      print("2. take Lamp");
+      print("3. take Lamp");
     }
   }
 

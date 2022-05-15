@@ -1,6 +1,7 @@
 import 'dart:io';
 import '../items/carrot_item.dart';
 import '../items/lamp_item.dart';
+import '../items/noteBook.dart';
 import '../items/officekey_item.dart';
 import '../items/oil_item.dart';
 import '../items/picture_item.dart';
@@ -70,9 +71,11 @@ class Player {
       } else if(playerInput == picture.itemId) {
         picture.viewPicture();
 
+      } else if(playerInput == noteBook.itemId) {
+        noteBook.viewNoteBook();
       }
       else {
-        print("you dont have that item");
+        print("you don't have that item");
       }
     }
   }

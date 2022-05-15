@@ -14,6 +14,11 @@ class GarageShelf {
     inGarage();
   }
 
+  void takeOil() {
+    player.pickUpItem(oil.itemId);
+    oil.hasItem = true;
+  }
+
 
 }
 GarageShelf garageShelf = GarageShelf("GarageShelf", false);

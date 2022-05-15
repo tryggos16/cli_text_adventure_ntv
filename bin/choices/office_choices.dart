@@ -13,7 +13,7 @@ void inOffice() {
     if(input == "1") {
       office.moveToSecondFloorStairs();
     } else if(input == "2") {
-      // todo add moveToDesk - func
+      office.moveToDesk();
     } else if(input == "3") {
       // todo add moveToPiano - func
     }
