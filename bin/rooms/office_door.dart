@@ -3,6 +3,7 @@
 import '../choices/office_choices.dart';
 import '../choices/second _floor_stairs_choices.dart';
 import '../items/officekey_item.dart';
+import '../player/player_stats.dart';
 
 class OfficeDoor {
   final String roomId;
@@ -24,6 +25,12 @@ class OfficeDoor {
   void openOfficeDoor() {
     officeKey.use();
   }
+
+  void takeOfficeKey() {
+    player.pickUpItem(officeKey.itemId);
+    officeKey.hasItem = true;
+  }
+
 
 }
 OfficeDoor officeDoor = OfficeDoor("Office Door", false, false);

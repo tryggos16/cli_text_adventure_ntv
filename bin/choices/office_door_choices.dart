@@ -1,5 +1,7 @@
 
 import 'dart:io';
+import '../items/officekey_item.dart';
+import '../npc/white_rabbit.dart';
 import '../player/player_stats.dart';
 import '../room_hud/office_door_hud.dart';
 import '../rooms/office_door.dart';
@@ -15,8 +17,9 @@ void byOfficeDoor() {
       officeDoor.moveToSecondFloorStairs();
     } else if(input == "2") {
       officeDoor.openOfficeDoor();
-      officeDoor.moveToOffice();
-    } // todo else if(white Rabbit check && input == "3) { pick up Key }
+    } else if(!player.inventory.contains(officeKey.itemId) && whiteRabbit.isVisible && input == "3") {
+      officeDoor.takeOfficeKey();
+    }
     else {
       print("Invalid");
     }

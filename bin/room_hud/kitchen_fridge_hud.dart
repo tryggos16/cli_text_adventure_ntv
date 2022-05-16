@@ -1,7 +1,7 @@
 
 import '../player/player_stats.dart';
 import '../rooms/kitchen.dart';
-import '../rooms/kitchen_frig.dart';
+import '../rooms/kitchen_fridge.dart';
 
 
 // these are the options that the player will see on the screen.

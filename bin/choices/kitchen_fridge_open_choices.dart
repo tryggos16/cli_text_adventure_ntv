@@ -2,9 +2,9 @@
 import 'dart:io';
 import '../items/carrot_item.dart';
 import '../player/player_stats.dart';
-import '../room_hud/kitchen_frig_open_hud.dart';
-import '../rooms/kitchen_frig.dart';
-import '../rooms/kitchen_frig_open.dart';
+import '../room_hud/kitchen_fridge_open_hud.dart';
+import '../rooms/kitchen_fridge.dart';
+import '../rooms/kitchen_fridge_open.dart';
 
 void insideKitchenFrig() {
   while(true) {

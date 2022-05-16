@@ -1,5 +1,7 @@
 
 
+import '../choices/office_choices.dart';
+import '../npc/white_rabbit.dart';
 import '../player/player_stats.dart';
 import '../rooms/office_door.dart';
 
@@ -13,6 +15,7 @@ class OfficeKey {
     if(player.inventory.contains(officeKey.itemId)) {
       print("you used the OfficeKey and opened the Door");
       officeDoor.isOpen = true;
+      inOffice();
     }
     else {
       print("the door is locked you need a Key");
@@ -20,11 +23,10 @@ class OfficeKey {
   }
 
   void hasOfficeKeyCheck() {
-    if(hasItem == false) {
+    if(hasItem == false && whiteRabbit.isVisible == true) {
       print("3. take Key");
-      // todo make findable only after white Rabbit appears!
     }
   }
 
 }
-OfficeKey officeKey = OfficeKey("officeKey", true);
+OfficeKey officeKey = OfficeKey("officeKey", false);

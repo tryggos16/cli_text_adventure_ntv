@@ -6,13 +6,13 @@ import '../player/player_stats.dart';
 
 class OpenFrig {
   final String roomId;
-  bool beenToOpenFrig;
+  bool beenToOpenFridge;
 
 
-  OpenFrig(this.roomId, this.beenToOpenFrig);
+  OpenFrig(this.roomId, this.beenToOpenFridge);
 
   void moveBack() {
-    print("you closed the Frig and moved back");
+    print("you closed the Fridge and moved back");
     inKitchen();
   }
 

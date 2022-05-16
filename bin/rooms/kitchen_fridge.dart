@@ -1,25 +1,25 @@
 import 'dart:io';
 import '../choices/kitchen_choices.dart';
-import '../choices/kitchen_frig_open_choices.dart';
+import '../choices/kitchen_fridge_open_choices.dart';
 import '../items/carrot_item.dart';
 import '../player/player_stats.dart';
-import 'kitchen_frig_open.dart';
+import 'kitchen_fridge_open.dart';
 
 class KitchenFrig {
   final String roomId;
   bool bennToKitchenFrig;
-  bool carrotInFrig;
+  bool carrotInFridge;
 
-  KitchenFrig(this.roomId, this.bennToKitchenFrig, this.carrotInFrig);
+  KitchenFrig(this.roomId, this.bennToKitchenFrig, this.carrotInFridge);
 
   void goBack() {
-    print("you move away from the Frig");
+    print("you move away from the Fridge");
     inKitchen();
   }
 
   void openFrigDoor() {
     if(carrot.hasItem == true) {
-      print("the Frig is empty.");
+      print("the Fridge is empty.");
     } else {
       print("you open the Refrigerator");
     }
@@ -34,4 +34,4 @@ class KitchenFrig {
   }
 
 }
-KitchenFrig kitchenFrig = KitchenFrig("Kitchen Frig", false, true);
+KitchenFrig kitchenFrig = KitchenFrig("Kitchen Fridge", false, true);

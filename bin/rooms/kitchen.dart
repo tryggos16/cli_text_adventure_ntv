@@ -1,8 +1,8 @@
 
 import '../choices/dining_room_choices.dart';
-import '../choices/kitchen_frig_choices.dart';
+import '../choices/kitchen_fridge_choices.dart';
 import '../choices/mainhall_choices.dart';
-import 'kitchen_frig.dart';
+import 'kitchen_fridge.dart';
 
 class Kitchen {
   final String roomId;

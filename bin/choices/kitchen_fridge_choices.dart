@@ -1,13 +1,12 @@
 import 'dart:io';
 import '../player/player_stats.dart';
-import '../room_hud/kitchen_frig_hud.dart';
-import '../rooms/kitchen_frig.dart';
+import '../room_hud/kitchen_fridge_hud.dart';
+import '../rooms/kitchen_fridge.dart';
 
 void byKitchenFrig() {
   while(true) {
     player.location = kitchenFrig.roomId;
     kitchenFrigHud();
-    // todo add hud.
     String? input = stdin.readLineSync();
 
     if(input == "1") {

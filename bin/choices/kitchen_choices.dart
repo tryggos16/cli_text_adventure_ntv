@@ -3,7 +3,7 @@ import 'dart:io';
 import '../player/player_stats.dart';
 import '../room_hud/kitchen_hud.dart';
 import '../rooms/kitchen.dart';
-import '../rooms/kitchen_frig.dart';
+import '../rooms/kitchen_fridge.dart';
 
 void inKitchen() {
   while(true) {
