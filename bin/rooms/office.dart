@@ -13,10 +13,6 @@ class Office {
     bySecondFloorStairs();
   }
 
-  void moveToPiano() {
-    print("you walk up to the Piano");
-    //  todo add func.
-  }
 
   void moveToDesk() {
     print("you walk up to the Office Desk");

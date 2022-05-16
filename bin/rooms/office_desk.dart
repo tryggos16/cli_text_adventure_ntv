@@ -4,6 +4,7 @@ import '../choices/office_choices.dart';
 import '../choices/office_desk_drawer_choices.dart';
 import '../items/lamp_item.dart';
 import '../player/player_stats.dart';
+import 'office_desk_keyboard.dart';
 
 class OfficeDesk {
   final String roomId;
@@ -19,6 +20,10 @@ class OfficeDesk {
   void openDeskDrawer() {
     print("you open the Desk Drawer and find a noteBook");
     inDeskDrawer();
+  }
+
+  void useKeyBoard() {
+    keyBoard.tryPuzzle();
   }
 
   void takeLamp() {
