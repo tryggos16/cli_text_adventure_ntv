@@ -1,10 +1,10 @@
-
 import 'dart:io';
 import '../player/player_stats.dart';
 import '../room_hud/dining_room_hud.dart';
 import '../rooms/dining_room.dart';
-import 'living_room_choices.dart';
 
+
+// these are all the choices you can make while in ( Dining Room )
 void inDiningRoom() {
   while(true) {
     player.location = diningRoom.roomId;
@@ -15,6 +15,8 @@ void inDiningRoom() {
       diningRoom.moveToKitchen();
     } else if(input == "2") {
       diningRoom.moveToLivingRoom();
+    } else if(input == "i") {
+      player.openInventory();
     }
     else {
       print("Invalid");

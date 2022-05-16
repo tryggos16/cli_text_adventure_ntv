@@ -1,9 +1,9 @@
-
-
 import '../items/noteBook.dart';
 import '../player/player_stats.dart';
 import '../rooms/office_desk_drawer.dart';
 
+
+// these are the options that the player will see ( byDeskDrawer )
 void officeDeskDrawerHud() {
   if(deskDrawer.beenToDeskDrawer == true) {
     print("----------");

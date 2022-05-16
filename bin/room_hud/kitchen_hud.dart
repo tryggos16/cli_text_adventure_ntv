@@ -1,9 +1,7 @@
-
-
 import '../player/player_stats.dart';
 import '../rooms/kitchen.dart';
 
-// these are the options that the player will see on the screen.
+// these are the options that the player will see ( inKitchen )
 void kitchenHud() {
   if(kitchen.beenToKitchen == true) {
     print("----------");

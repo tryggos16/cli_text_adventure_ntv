@@ -1,5 +1,3 @@
-// todo add all.
-
 import '../player/player_stats.dart';
 import '../rooms/living_room.dart';
 

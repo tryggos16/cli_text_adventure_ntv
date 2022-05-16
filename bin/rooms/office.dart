@@ -1,4 +1,3 @@
-
 import '../choices/office_desk_choices.dart';
 import '../choices/second _floor_stairs_choices.dart';
 

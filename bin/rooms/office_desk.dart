@@ -1,7 +1,6 @@
-
-
 import '../choices/office_choices.dart';
 import '../choices/office_desk_drawer_choices.dart';
+import '../items/keycard_item.dart';
 import '../items/lamp_item.dart';
 import '../player/player_stats.dart';
 import 'office_desk_keyboard.dart';
@@ -29,6 +28,11 @@ class OfficeDesk {
   void takeLamp() {
     player.pickUpItem(lamp.itemId);
     lamp.hasItem = true;
+  }
+
+  void takeKeyCard() {
+    player.pickUpItem(keyCard.itemId);
+    keyCard.hasItem = true;
   }
 
 

@@ -17,6 +17,7 @@ class Lamp {
     }
   }
 
+  // this will show up on the ( officeDeskHud )
   void hasLampCheck() {
     if(hasItem == false) {
       print("3. take Lamp");

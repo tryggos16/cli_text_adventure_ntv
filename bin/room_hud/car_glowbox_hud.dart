@@ -1,9 +1,7 @@
-
-
 import '../items/picture_item.dart';
-import '../player/player_stats.dart';
 import '../rooms/garage_inside_car.dart';
 
+// these ar the options that the player will see ( inGlowBox )
 void carGlowBoxHud() {
   if(insideCar.beenInsideCar == true) {
     print("----------");

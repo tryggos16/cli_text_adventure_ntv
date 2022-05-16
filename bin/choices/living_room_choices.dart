@@ -1,10 +1,11 @@
-
 import 'dart:io';
 import '../npc/brown_rabbit.dart';
 import '../player/player_stats.dart';
 import '../room_hud/living_room_hud.dart';
 import '../rooms/living_room.dart';
 
+
+// these are all the choices you can make while in ( Living room )
 void inLivingRoom() {
   while(true) {
     player.location = livingRoom.roomId;
@@ -26,6 +27,9 @@ void inLivingRoom() {
       }
     } else if(input == "i") {
       player.openInventory();
+    }
+    else {
+      print("Invalid");
     }
   }
 }

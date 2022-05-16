@@ -4,6 +4,8 @@ import '../player/player_stats.dart';
 import '../room_hud/office_hud.dart';
 import '../rooms/office.dart';
 
+
+// these are all the choices you can make while in ( Office )
 void inOffice() {
   while(true) {
     player.location = office.roomId;
@@ -16,10 +18,11 @@ void inOffice() {
       office.moveToDesk();
     } else if(input == "3") {
       // todo add moveToPiano - func
+    } else if(input == "i") {
+      player.openInventory();
     }
-
+    else {
+      print("Invalid");
+    }
   }
-
-
-
 }

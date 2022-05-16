@@ -1,4 +1,3 @@
-
 import '../choices/dining_room_choices.dart';
 import '../choices/living_room_tv_choices.dart';
 import '../choices/mainhall_choices.dart';

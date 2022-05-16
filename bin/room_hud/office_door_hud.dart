@@ -1,9 +1,9 @@
-
-
 import '../items/officekey_item.dart';
 import '../player/player_stats.dart';
 import '../rooms/office_door.dart';
 
+
+// these are the options that the player will see ( byOfficeDoor )
 void byOfficeDoorHud() {
   if(officeDoor.beenToOfficeDoor == true) {
     print("----------");

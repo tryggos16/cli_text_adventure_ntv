@@ -1,11 +1,7 @@
-
-
-import '../items/picture_item.dart';
 import '../player/player_stats.dart';
 import '../rooms/garage_car.dart';
-import '../rooms/garage_inside_car.dart';
 
-// these are the options that the player will see on the screen.
+// these are the options that the player will see ( inGarageCar )
 void garageCarHud() {
   if(garageCar.beenToCar == true) {
     print("----------");
@@ -26,5 +22,3 @@ void garageCarHud() {
     print("----------");
   }
 }
-
-// these are the options that the player will see on the screen.

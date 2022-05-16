@@ -1,12 +1,12 @@
 import 'dart:io';
 import '../items/carrot_item.dart';
+import '../items/keycard_item.dart';
 import '../items/lamp_item.dart';
 import '../items/noteBook.dart';
 import '../items/officekey_item.dart';
 import '../items/oil_item.dart';
 import '../items/picture_item.dart';
 import '../rooms/living_room.dart';
-import '../rooms/mainhall.dart';
 
 class Player {
   String location = "";
@@ -73,6 +73,9 @@ class Player {
 
       } else if(playerInput == noteBook.itemId) {
         noteBook.viewNoteBook();
+
+      } else if(playerInput == keyCard.itemId) {
+        print("the card doesn't just do something by it self.");
       }
       else {
         print("you don't have that item");

@@ -1,11 +1,10 @@
-
 import 'dart:io';
 import '../npc/white_rabbit.dart';
 import '../player/player_stats.dart';
 import '../room_hud/mainhall_stairs_hud.dart';
 import '../rooms/mainhall_stairs.dart';
-import 'second _floor_stairs_choices.dart';
 
+// these are all the choices you can make while by ( mainHall Stairs )
 void byMainHallStairs() {
   while(true) {
     player.location = mainHallStairs.roomId;

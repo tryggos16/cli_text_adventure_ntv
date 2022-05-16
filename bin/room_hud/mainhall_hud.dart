@@ -1,10 +1,9 @@
-
 import '../player/player_stats.dart';
 import '../rooms/garage.dart';
 import '../rooms/mainhall.dart';
 
 
-// these are the options that the player will see on the screen.
+// these are the options that the player will see ( inMainHall )
 void mainHallHud() {
   if(mainHall.beenToMainHall == true) {
     if(garage.beenToGarage == true) {

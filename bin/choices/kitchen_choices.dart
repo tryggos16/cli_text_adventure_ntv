@@ -1,15 +1,14 @@
-
 import 'dart:io';
 import '../player/player_stats.dart';
 import '../room_hud/kitchen_hud.dart';
 import '../rooms/kitchen.dart';
-import '../rooms/kitchen_fridge.dart';
 
+
+// these are all the choices you can make while in ( Kitchen )
 void inKitchen() {
   while(true) {
     player.location = kitchen.roomId;
     kitchenHud();
-    // todo add hud.
     String? input = stdin.readLineSync();
 
     if(input == "1") {

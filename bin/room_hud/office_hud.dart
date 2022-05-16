@@ -1,8 +1,8 @@
-
-
 import '../player/player_stats.dart';
 import '../rooms/office.dart';
 
+
+// these are the options that the player will see ( inOffice )
 void officeHud() {
   if(office.beenToOffice == true) {
     print("----------");

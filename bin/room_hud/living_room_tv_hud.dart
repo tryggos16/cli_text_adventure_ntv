@@ -1,8 +1,8 @@
-
-
 import '../player/player_stats.dart';
 import '../rooms/living_room_tv.dart';
 
+
+// these are the options that the player will see ( byTV )
 void tvHud() {
   if(tv.beenToTV == true) {
     print("----------");

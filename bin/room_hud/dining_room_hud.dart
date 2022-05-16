@@ -1,8 +1,7 @@
-
-
 import '../player/player_stats.dart';
 import '../rooms/dining_room.dart';
 
+// these are the options that the player will see ( inDiningRoom )
 void diningRoomHud() {
   if(diningRoom.beenToDiningRoom == true){
     print("----------");

@@ -1,9 +1,6 @@
-
-import '../choices/garage_car_choices.dart';
 import '../choices/garage_choices.dart';
 import '../choices/inside_car_choices.dart';
-import '../player/player_stats.dart';
-import 'garage.dart';
+
 
 class GarageCar {
   final String roomId;

@@ -10,6 +10,7 @@ class NoteBook {
     print("you open the NoteBook and see nothing");
   }
 
+  // this will show up on the ( officeDeskDrawerHud )
   void hasNoteBookCheck() {
     if(hasItem == false) {
       print("2. take NoteBook");

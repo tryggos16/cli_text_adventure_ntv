@@ -1,10 +1,9 @@
-
-
-import '../choices/kitchen_fridge_open_choices.dart';
 import '../items/carrot_item.dart';
 import '../player/player_stats.dart';
 import '../rooms/kitchen_fridge_open.dart';
 
+
+// these are the options that the player will see ( insideKitchenOpenFridge )
 void insideFrigHud() {
   if(openFrig.beenToOpenFridge == true) {
     print("----------");

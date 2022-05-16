@@ -1,8 +1,8 @@
-
-
 import '../player/player_stats.dart';
 import '../rooms/second_floor_stairs.dart';
 
+
+// these are the options that the player will see ( bySecondFloorStairs )
 void secondFloorStairsHud() {
   if(secondFloorStairs.beenToSecondFloorStairs == true){
     print("----------");

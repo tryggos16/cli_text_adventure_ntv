@@ -11,6 +11,7 @@ void inForest() {
     player.location = forest.roomId;
     forestHud();
     String? input = stdin.readLineSync();
+
     if(input == "1") {
       forest.enterShack();
     }

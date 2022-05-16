@@ -1,7 +1,8 @@
-
 import '../player/player_stats.dart';
 import '../rooms/garage.dart';
 
+
+// these are the options that the player will see ( inGarage )
 void garageHud() {
   if(garage.beenToGarage == true) {
     print("----------");

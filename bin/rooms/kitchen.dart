@@ -22,7 +22,7 @@ class Kitchen {
 
   moveToFrig() {
     print("you walk up to the Refrigerator");
-    byKitchenFrig();
+    byKitchenFridge();
   }
 
 

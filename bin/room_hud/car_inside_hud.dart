@@ -1,10 +1,8 @@
-
-
 import '../player/player_stats.dart';
 import '../rooms/garage_inside_car.dart';
 
 
-// these ar the options that the player will see ( insideCar )
+// these are the options that the player will see ( insideCar )
 void insideCarHud() {
   if(insideCar.beenInsideCar == true) {
     print("----------");

@@ -1,11 +1,9 @@
-
 import '../choices/garage_choices.dart';
 import '../choices/kitchen_choices.dart';
 import '../choices/living_room_choices.dart';
 import '../choices/mainhall_stairs_choices.dart';
 import 'garage.dart';
-import 'kitchen.dart';
-import 'living_room.dart';
+
 
 class MainHall {
   String roomId;

@@ -5,8 +5,9 @@ import '../npc/white_rabbit.dart';
 import '../player/player_stats.dart';
 import '../room_hud/office_door_hud.dart';
 import '../rooms/office_door.dart';
-import 'second _floor_stairs_choices.dart';
 
+
+// these are all the choices you can make while by ( Office Door )
 void byOfficeDoor() {
   while(true) {
     player.location = officeDoor.roomId;
@@ -19,6 +20,8 @@ void byOfficeDoor() {
       officeDoor.openOfficeDoor();
     } else if(!player.inventory.contains(officeKey.itemId) && whiteRabbit.isVisible && input == "3") {
       officeDoor.takeOfficeKey();
+    } else if(input == "i") {
+      player.openInventory();
     }
     else {
       print("Invalid");

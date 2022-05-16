@@ -1,6 +1,3 @@
-
-import 'dart:io';
-
 import '../choices/living_room_choices.dart';
 
 class TV {

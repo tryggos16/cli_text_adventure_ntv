@@ -1,5 +1,3 @@
-
-
 import 'dart:io';
 import '../choices/garage_car_choices.dart';
 import '../items/picture_item.dart';

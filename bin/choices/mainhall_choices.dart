@@ -3,7 +3,7 @@ import '../player/player_stats.dart';
 import '../room_hud/mainhall_hud.dart';
 import '../rooms/mainhall.dart';
 
-// these are all the choices you can make while in the MainHall.
+// these are all the choices you can make while in the ( MainHall )
 void inMainHall() {
   while(true) {
     player.location = mainHall.roomId;
@@ -23,9 +23,6 @@ void inMainHall() {
       // todo
     } else if(input == "i") {
       player.openInventory();
-
-    } else if(input == "help") {
-      player.helpInfo();
     }
     else {
       print("invalid");

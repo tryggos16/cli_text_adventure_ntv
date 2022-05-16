@@ -3,7 +3,9 @@ import '../player/player_stats.dart';
 import '../room_hud/kitchen_fridge_hud.dart';
 import '../rooms/kitchen_fridge.dart';
 
-void byKitchenFrig() {
+
+// these are all the choices you can make while standing by ( KitchenFridge )
+void byKitchenFridge() {
   while(true) {
     player.location = kitchenFrig.roomId;
     kitchenFrigHud();

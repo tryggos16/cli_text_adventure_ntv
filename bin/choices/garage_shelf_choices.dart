@@ -11,11 +11,13 @@ void inGarageShelf() {
     player.location = garageShelf.roomId;
     garageShelfHud();
     String? input = stdin.readLineSync();
+
     if(input == "1") {
       garageShelf.goBack();
     } else if(!player.inventory.contains(oil.itemId) && input == "2") {
       garageShelf.takeOil();
-
+    } else if(input == "i") {
+      player.openInventory();
     }
     else {
       print("Invalid");

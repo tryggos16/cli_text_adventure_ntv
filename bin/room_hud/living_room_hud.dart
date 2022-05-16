@@ -1,9 +1,9 @@
-
-
 import '../npc/brown_rabbit.dart';
 import '../player/player_stats.dart';
 import '../rooms/living_room.dart';
 
+
+// these are the options that the player will see ( inLivingRoom )
 void livingRoomHud() {
   if(livingRoom.beenToLivingRoom == true) {
     print("----------");

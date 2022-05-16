@@ -2,7 +2,6 @@ import 'dart:io';
 import '../choices/kitchen_choices.dart';
 import '../choices/kitchen_fridge_open_choices.dart';
 import '../items/carrot_item.dart';
-import '../player/player_stats.dart';
 import 'kitchen_fridge_open.dart';
 
 class KitchenFrig {
@@ -24,7 +23,7 @@ class KitchenFrig {
       print("you open the Refrigerator");
     }
 
-    insideKitchenFrig();
+    insideKitchenFridge();
     String? input = stdin.readLineSync();
     if(input == "1") {
       openFrig.takeOrClose();
