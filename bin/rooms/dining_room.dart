@@ -1,5 +1,7 @@
 import '../choices/kitchen_choices.dart';
 import '../choices/living_room_choices.dart';
+import '../items/lamp_item.dart';
+import '../player/player_stats.dart';
 
 class DiningRoom {
   final String roomId;
@@ -15,6 +17,11 @@ class DiningRoom {
   void moveToKitchen() {
     print("you walk into the Kitchen");
     inKitchen();
+  }
+
+  void takeLamp() {
+    player.pickUpItem(lamp.itemId);
+    lamp.hasItem = true;
   }
 
 

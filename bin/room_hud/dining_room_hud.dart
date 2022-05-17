@@ -1,3 +1,4 @@
+import '../items/lamp_item.dart';
 import '../player/player_stats.dart';
 import '../rooms/dining_room.dart';
 
@@ -8,6 +9,7 @@ void diningRoomHud() {
     print("Location: ${player.location}");
     print("1. go to the Kitchen");
     print("2. go to Living Room");
+    lamp.hasLampCheck();
     print("----------");
   }
   else {
@@ -17,6 +19,7 @@ void diningRoomHud() {
     print("Location: ${player.location}");
     print("1. go to the Kitchen");
     print("2. go to Living Room");
+    lamp.hasLampCheck();
     print("----------");
   }
 }

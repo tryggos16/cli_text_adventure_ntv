@@ -1,7 +1,7 @@
 
 import 'dart:io';
 import '../items/officekey_item.dart';
-import '../npc/white_rabbit.dart';
+import '../npc/white_rabbit_npc.dart';
 import '../player/player_stats.dart';
 import '../room_hud/office_door_hud.dart';
 import '../rooms/office_door.dart';

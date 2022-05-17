@@ -20,9 +20,7 @@ void byOfficeDesk() {
       officeDesk.goBack();
     } else if(input == "2") {
       officeDesk.openDeskDrawer();
-    } else if(!player.inventory.contains(lamp.itemId) && input == "3") {
-      officeDesk.takeLamp();
-    } else if(input == "4") {
+    } else if(input == "3") {
       byDeskKeyBoard();
     } else if(keyBoard.keyBoardPuzzleSolved == true && !player.inventory.contains(keyCard.itemId) && input == "5") {
       officeDesk.takeKeyCard();

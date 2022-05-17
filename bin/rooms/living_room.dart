@@ -1,7 +1,7 @@
 import '../choices/dining_room_choices.dart';
 import '../choices/living_room_tv_choices.dart';
 import '../choices/mainhall_choices.dart';
-import '../npc/brown_rabbit.dart';
+import '../npc/brown_rabbit_npc.dart';
 
 class LivingRoom {
   final String roomId;

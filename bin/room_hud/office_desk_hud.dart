@@ -11,7 +11,6 @@ void officeDeskHud() {
     print("Location: ${player.location}");
     print("1. go back");
     print("2. open Drawer");
-    lamp.hasLampCheck();
     print("4. keyBoard");
     keyCard.hasKeyCardCheck();
     print("----------");
@@ -23,8 +22,7 @@ void officeDeskHud() {
     print("Location: ${player.location}");
     print("1. go back");
     print("2. open Drawer");
-    lamp.hasLampCheck();
-    print("4. keyBoard");
+    print("3. keyBoard");
     keyCard.hasKeyCardCheck();
     print("----------");
   }

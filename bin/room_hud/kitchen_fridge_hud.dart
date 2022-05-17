@@ -9,7 +9,7 @@ void kitchenFrigHud() {
     print("----------");
     print("Location: ${player.location}");
     print("1. go back");
-    print("2. open the frig");
+    print("2. open the fridge");
     print("----------");
   }
   else {
@@ -18,7 +18,7 @@ void kitchenFrigHud() {
     print("----------");
     print("Location: ${player.location}");
     print("1. go back");
-    print("2. open the frig");
+    print("2. open the fridge");
     print("----------");
 
   }

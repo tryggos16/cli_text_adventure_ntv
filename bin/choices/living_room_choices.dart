@@ -1,5 +1,5 @@
 import 'dart:io';
-import '../npc/brown_rabbit.dart';
+import '../npc/brown_rabbit_npc.dart';
 import '../player/player_stats.dart';
 import '../room_hud/living_room_hud.dart';
 import '../rooms/living_room.dart';

@@ -25,11 +25,6 @@ class OfficeDesk {
     keyBoard.tryPuzzle();
   }
 
-  void takeLamp() {
-    player.pickUpItem(lamp.itemId);
-    lamp.hasItem = true;
-  }
-
   void takeKeyCard() {
     player.pickUpItem(keyCard.itemId);
     keyCard.hasItem = true;

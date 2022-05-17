@@ -8,7 +8,7 @@ void kitchenHud() {
     print("Location: ${player.location}");
     print("1. go to MainHall");
     print("2. go to the DiningRoom");
-    print("3. go to the Frig");
+    print("3. go to the Fridge");
     print("----------");
   }
   else {
@@ -18,7 +18,7 @@ void kitchenHud() {
     print("Location: ${player.location}");
     print("1. go to MainHall");
     print("2. go to the DiningRoom");
-    print("3. go to the Frig");
+    print("3. go to the Fridge");
     print("----------");
 
   }

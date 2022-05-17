@@ -1,6 +1,6 @@
 
 
-import 'brown_rabbit.dart';
+import 'brown_rabbit_npc.dart';
 
 class WhiteRabbit {
   final String npcId;

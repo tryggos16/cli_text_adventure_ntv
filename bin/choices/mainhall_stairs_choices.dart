@@ -1,5 +1,5 @@
 import 'dart:io';
-import '../npc/white_rabbit.dart';
+import '../npc/white_rabbit_npc.dart';
 import '../player/player_stats.dart';
 import '../room_hud/mainhall_stairs_hud.dart';
 import '../rooms/mainhall_stairs.dart';

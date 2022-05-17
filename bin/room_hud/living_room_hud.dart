@@ -1,4 +1,4 @@
-import '../npc/brown_rabbit.dart';
+import '../npc/brown_rabbit_npc.dart';
 import '../player/player_stats.dart';
 import '../rooms/living_room.dart';
 

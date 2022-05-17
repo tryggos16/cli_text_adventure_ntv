@@ -1,4 +1,5 @@
 import 'dart:io';
+import '../items/lamp_item.dart';
 import '../player/player_stats.dart';
 import '../room_hud/dining_room_hud.dart';
 import '../rooms/dining_room.dart';
@@ -15,7 +16,10 @@ void inDiningRoom() {
       diningRoom.moveToKitchen();
     } else if(input == "2") {
       diningRoom.moveToLivingRoom();
-    } else if(input == "i") {
+    } else if(!player.inventory.contains(lamp.itemId) && input == "3") {
+      diningRoom.takeLamp();
+    }
+    else if(input == "i") {
       player.openInventory();
     }
     else {
