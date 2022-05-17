@@ -1,4 +1,7 @@
+import '../player/player_stats.dart';
+import '../rooms/mainhall_redbutton.dart';
 import '../rooms/office_desk_keyboard.dart';
+import 'cardscanner_item.dart';
 
 class KeyCard {
   final String itemId;
@@ -7,6 +10,10 @@ class KeyCard {
   KeyCard(this.itemId, this.hasItem);
 
   void use() {
+    print("you put the card into the box");
+    keyCardScanner.cardInBox = true;
+    player.inventory.remove(keyCard.itemId);
+
     // todo add func.
   }
 

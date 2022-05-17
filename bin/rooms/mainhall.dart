@@ -1,6 +1,7 @@
 import '../choices/garage_choices.dart';
 import '../choices/kitchen_choices.dart';
 import '../choices/living_room_choices.dart';
+import '../choices/mainhall_redbutton_choices.dart';
 import '../choices/mainhall_stairs_choices.dart';
 import 'garage.dart';
 
@@ -36,5 +37,11 @@ class MainHall {
     print("you walk in to the LivingRoom");
     inLivingRoom();
   }
+
+  void moveToRedButton() {
+    print("you walk over to the red button");
+    byRedButton();
+  }
+
 }
 MainHall mainHall = MainHall("MainHall",false);

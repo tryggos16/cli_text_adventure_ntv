@@ -13,6 +13,7 @@ void mainHallHud() {
       print("2. go to Stairs");
       print("3. go to Kitchen");
       print("4. go to Living room");
+      print("5. go to Red Button");
       print("----------");
     } else {
       print("----------");
@@ -21,6 +22,7 @@ void mainHallHud() {
       print("2. go to Stairs");
       print("3. go to Kitchen");
       print("4. go to Living room");
+      print("5. go to Red Button");
       print("----------");
     }
   }
@@ -33,6 +35,7 @@ void mainHallHud() {
     print("2. go to Stairs");
     print("3. go to Kitchen");
     print("4. go to Living room");
+    print("5. go to Red Button");
     print("----------");
 
   }

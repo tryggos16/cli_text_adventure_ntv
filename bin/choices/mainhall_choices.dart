@@ -21,9 +21,12 @@ void inMainHall() {
     } else if(input == "4") {
       mainHall.moveToLivingRoom();
       // todo
-    } else if(input == "i") {
+    }  else if(input == "5") {
+      mainHall.moveToRedButton();
+    }  else if(input == "i") {
       player.openInventory();
     }
+
     else {
       print("invalid");
     }

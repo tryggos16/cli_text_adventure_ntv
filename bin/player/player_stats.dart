@@ -1,4 +1,5 @@
 import 'dart:io';
+import '../items/cardscanner_item.dart';
 import '../items/carrot_item.dart';
 import '../items/keycard_item.dart';
 import '../items/lamp_item.dart';
@@ -95,4 +96,4 @@ class Player {
 
 
 }
-Player player = Player("", [carrot.itemId]);
+Player player = Player("", [carrot.itemId, keyCard.itemId, keyCardScanner.itemId]);
