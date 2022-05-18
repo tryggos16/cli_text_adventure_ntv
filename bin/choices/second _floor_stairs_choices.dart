@@ -17,7 +17,10 @@ void bySecondFloorStairs() {
       byMainHallStairs();
     } else if(input == "2") {
       secondFloorStairs.moveToOfficeDoor();
-    } else if(input == "i") {
+    } else if(input == "3") {
+      secondFloorStairs.moveToBedRoom();
+    }
+    else if(input == "i") {
       player.openInventory();
     }
     else {

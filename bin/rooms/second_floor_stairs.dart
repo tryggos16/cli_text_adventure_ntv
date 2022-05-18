@@ -1,3 +1,4 @@
+import '../choices/bed_room_choices.dart';
 import '../choices/mainhall_stairs_choices.dart';
 import '../choices/office_choices.dart';
 import '../choices/office_door_choices.dart';
@@ -32,6 +33,11 @@ class SecondFloorStairs {
     else {
       print("2. go to the door on the right");
     }
+  }
+
+  void moveToBedRoom() {
+    print("you walked to the BedRoom");
+    inBedRoom();
   }
 
 }

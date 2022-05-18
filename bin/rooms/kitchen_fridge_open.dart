@@ -24,6 +24,10 @@ class OpenFrig {
     }
   }
 
+  void takeCarrot() {
+    player.pickUpItem(carrot.itemId);
+    carrot.hasItem = true;
+  }
 
 }
 OpenFrig openFrig = OpenFrig("Kitchen Frig",false);

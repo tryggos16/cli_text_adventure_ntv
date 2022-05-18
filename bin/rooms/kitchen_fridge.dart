@@ -23,6 +23,7 @@ class KitchenFrig {
       print("you open the Refrigerator");
     }
 
+    // todo change!
     insideKitchenFridge();
     String? input = stdin.readLineSync();
     if(input == "1") {

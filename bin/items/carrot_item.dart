@@ -24,5 +24,6 @@ class Carrot {
     }
   }
 
+
 }
 Carrot carrot = Carrot("carrot", false);
