@@ -1,11 +1,14 @@
+
 import 'dart:io';
 import '../items/cardscanner_item.dart';
 import '../items/carrot_item.dart';
+import '../items/gumball_item.dart';
 import '../items/keycard_item.dart';
 import '../items/lamp_item.dart';
 import '../items/noteBook.dart';
 import '../items/oil_item.dart';
 import '../items/picture_item.dart';
+import '../items/smallbox_item.dart';
 import '../rooms/living_room.dart';
 
 class Player {
@@ -19,7 +22,8 @@ class Player {
     print("Inventory: ${player.inventory}");
     print("press 1 to close Inventory.");
     print("press 2 to use Item");
-    print("press 3 to dropItem");
+    print("press 3 to drop Item");
+    print("press 4 to Break Item");
     print("----------");
     String? playerInput = stdin.readLineSync();
     if(playerInput == "1") {
@@ -28,6 +32,8 @@ class Player {
       useItem();
     } else if(playerInput == "3")  {
       dropItem();
+    } else if(playerInput == "4") {
+      breakItem();
     }
     else {
       print("Invalid");
@@ -53,7 +59,7 @@ class Player {
 
   void useItem() {
     print("-----");
-    print(":useItem:");
+    print(":use Item:");
     print("select the item you wish to use");
     print("------");
     String? playerInput = stdin.readLineSync();
@@ -78,6 +84,12 @@ class Player {
 
       } else if(playerInput == keyCardScanner.itemId) {
         print("you need to plug this in somehow");
+
+      } else if(playerInput == smallBox.itemId) {
+        print("i don't think i can Use the box on anything");
+
+      } else if(playerInput == gumBall.itemId) {
+        print("it Says Warning Don't Eat! on the ball, so im not gonna eat it");
       }
       else {
         print("you don't have that item");
@@ -86,9 +98,18 @@ class Player {
   }
 
   void breakItem() {
-    // todo if (item == ???) - break
-    // else - don't break
-    // add func.
+    print("-----");
+    print(":Break Item:");
+    print("select the item you wish to Break");
+    print("------");
+    String? playerInput = stdin.readLineSync();
+
+    if(playerInput == smallBox.itemId) {
+      smallBox.brakeBox();
+    }
+    else {
+      print("i don't think that is gonna help");
+    }
   }
 
   void helpInfo() {
@@ -97,4 +118,4 @@ class Player {
 
 
 }
-Player player = Player("", []);
+Player player = Player("", [gumBall.itemId, carrot.itemId]);

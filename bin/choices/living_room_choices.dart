@@ -1,4 +1,5 @@
 import 'dart:io';
+import '../items/basementkey_item.dart';
 import '../npc/brown_rabbit_npc.dart';
 import '../player/player_stats.dart';
 import '../room_hud/living_room_hud.dart';
@@ -18,14 +19,17 @@ void inLivingRoom() {
       livingRoom.moveToDiningRoom();
     } else if(input == "3") {
       livingRoom.moveToTv();
-    } else if(input == "4") {
+    } else if(brownRabbit.isGone == false && input == "4") {
       if(brownRabbit.rabbitGot == true) {
         brownRabbit.talkToRabbit();
       }
       else {
         livingRoom.catchRabbit();
       }
-    } else if(input == "i") {
+    } else if(basementKey.hasItem == false && input == "4") {
+      brownRabbit.takeBasementKey();
+    }
+    else if(input == "i") {
       player.openInventory();
     }
     else {

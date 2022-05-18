@@ -7,9 +7,10 @@ import '../items/lamp_item.dart';
 class BasementDoor {
   final String roomId;
   bool beenToBasementDoor;
+  bool isOpen;
 
 
-  BasementDoor(this.roomId, this.beenToBasementDoor);
+  BasementDoor(this.roomId, this.beenToBasementDoor, this.isOpen);
 
   void goBack() {
     inMainHall();
@@ -25,7 +26,10 @@ class BasementDoor {
     }
   }
 
+  void openDoor() {
+
+  }
 
 
 }
-BasementDoor basementDoor = BasementDoor("Basement Door", false);
+BasementDoor basementDoor = BasementDoor("Basement Door", false, false);

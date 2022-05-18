@@ -1,3 +1,4 @@
+import '../items/basementkey_item.dart';
 import '../npc/brown_rabbit_npc.dart';
 import '../player/player_stats.dart';
 import '../rooms/living_room.dart';
@@ -12,6 +13,7 @@ void livingRoomHud() {
     print("2. go to the Dining Room");
     print("3. look at the TV");
     brownRabbit.rabbitCaughtCheck();
+    basementKey.hasBasementKeyCheck();
     print("----------");
   }
   else {
@@ -23,6 +25,7 @@ void livingRoomHud() {
     print("2. go to the Dining Room");
     print("3. look at the TV");
     brownRabbit.rabbitCaughtCheck();
+    basementKey.hasBasementKeyCheck();
     print("----------");
   }
 }
