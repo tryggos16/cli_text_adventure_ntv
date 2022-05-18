@@ -4,7 +4,6 @@ import '../items/carrot_item.dart';
 import '../items/keycard_item.dart';
 import '../items/lamp_item.dart';
 import '../items/noteBook.dart';
-import '../items/officekey_item.dart';
 import '../items/oil_item.dart';
 import '../items/picture_item.dart';
 import '../rooms/living_room.dart';
@@ -33,7 +32,6 @@ class Player {
     else {
       print("Invalid");
     }
-    // todo add itemHub.
   }
 
   void pickUpItem(String itemId) {
@@ -77,6 +75,9 @@ class Player {
 
       } else if(playerInput == keyCard.itemId) {
         print("the card doesn't just do something by it self.");
+
+      } else if(playerInput == keyCardScanner.itemId) {
+        print("you need to plug this in somehow");
       }
       else {
         print("you don't have that item");
@@ -96,4 +97,4 @@ class Player {
 
 
 }
-Player player = Player("", [carrot.itemId, keyCard.itemId, keyCardScanner.itemId]);
+Player player = Player("", []);

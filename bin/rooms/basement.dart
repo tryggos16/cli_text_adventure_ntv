@@ -1,6 +1,8 @@
 
 
 import '../choices/mainhall_choices.dart';
+import '../items/cardscanner_item.dart';
+import '../player/player_stats.dart';
 
 class Basement {
   final String roomId;
@@ -11,6 +13,11 @@ class Basement {
 
   void goBack() {
     inMainHall();
+  }
+
+  void takeStrangeBox() {
+    player.pickUpItem(keyCardScanner.itemId);
+    keyCardScanner.hasItem = true;
   }
 
   void takeCandy() {

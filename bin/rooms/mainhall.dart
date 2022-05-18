@@ -1,3 +1,4 @@
+import '../choices/basement_door_choices.dart';
 import '../choices/garage_choices.dart';
 import '../choices/kitchen_choices.dart';
 import '../choices/living_room_choices.dart';
@@ -36,6 +37,11 @@ class MainHall {
   void moveToLivingRoom() {
     print("you walk in to the LivingRoom");
     inLivingRoom();
+  }
+
+  void moveToBasementDoor() {
+    print("you walk over to the Basement Door");
+    byBasementDoor();
   }
 
   void moveToRedButton() {
