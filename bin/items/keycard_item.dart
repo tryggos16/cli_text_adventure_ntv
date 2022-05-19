@@ -13,8 +13,6 @@ class KeyCard {
     print("you put the card into the box");
     keyCardScanner.cardInBox = true;
     player.inventory.remove(keyCard.itemId);
-
-    // todo add func.
   }
 
 

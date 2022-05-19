@@ -17,7 +17,7 @@ class KeyCardScanner {
 
   }
 
-    // todo add to correct place.
+
   void hasKeyCardScannerCheck() {
     if(hasTakenItem == false) {
       print("2. take Strange Box");

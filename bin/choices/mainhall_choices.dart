@@ -14,13 +14,10 @@ void inMainHall() {
       mainHall.moveToGarage();
     } else if(input == "2") {
       mainHall.moveToStairs();
-      // todo
     } else if(input == "3") {
       mainHall.moveToKitchen();
-      // todo
     } else if(input == "4") {
       mainHall.moveToLivingRoom();
-      // todo
     }  else if(input == "5") {
       mainHall.moveToBasementDoor();
 
