@@ -7,6 +7,7 @@ void tvHud() {
   if(tv.beenToTV == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     tv.turnOnOffHud();
     print("----------");
@@ -17,6 +18,7 @@ void tvHud() {
     tv.beenToTV = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     tv.turnOnOffHud();
     print("----------");

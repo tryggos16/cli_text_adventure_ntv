@@ -8,6 +8,7 @@ void insideFrigHud() {
   if(openFrig.beenToOpenFridge == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. close Fridge");
     carrot.hasCarrotCheck();
     print("----------");
@@ -17,6 +18,7 @@ void insideFrigHud() {
     openFrig.beenToOpenFridge = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. close Fridge");
     carrot.hasCarrotCheck();
     print("----------");

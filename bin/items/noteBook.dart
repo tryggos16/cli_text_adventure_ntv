@@ -2,9 +2,9 @@
 
 class NoteBook {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
 
-  NoteBook(this.itemId, this.hasItem);
+  NoteBook(this.itemId, this.hasTakenItem);
 
   void viewNoteBook() {
     print("you open the NoteBook and see nothing");
@@ -12,7 +12,7 @@ class NoteBook {
 
   // this will show up on the ( officeDeskDrawerHud )
   void hasNoteBookCheck() {
-    if(hasItem == false) {
+    if(hasTakenItem == false) {
       print("2. take NoteBook");
     }
   }

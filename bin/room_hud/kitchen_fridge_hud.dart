@@ -8,6 +8,7 @@ void kitchenFrigHud() {
   if(kitchenFrig.bennToKitchenFrig == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. open the fridge");
     print("----------");
@@ -17,6 +18,7 @@ void kitchenFrigHud() {
     kitchenFrig.bennToKitchenFrig = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. open the fridge");
     print("----------");

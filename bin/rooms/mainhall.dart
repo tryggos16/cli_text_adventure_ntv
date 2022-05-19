@@ -49,5 +49,15 @@ class MainHall {
     byRedButton();
   }
 
+  // this will show up in the ( mainHallHud )
+  void beenToGarageCheck() {
+    if(garage.beenToGarage == true) {
+      print("1. go to garage");
+    }
+    else {
+      print("1. go to the open door on the left");
+    }
+  }
+
 }
 MainHall mainHall = MainHall("MainHall",false);

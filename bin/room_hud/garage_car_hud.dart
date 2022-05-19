@@ -6,6 +6,7 @@ void garageCarHud() {
   if(garageCar.beenToCar == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. look inside the car");
     print("3. open the Hood");
@@ -16,6 +17,7 @@ void garageCarHud() {
     garageCar.beenToCar = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. look inside the car");
     print("3. open the Hood");

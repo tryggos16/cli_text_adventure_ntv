@@ -7,6 +7,7 @@ void insideCarHud() {
   if(insideCar.beenInsideCar == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. open GlowBox");
     print("----------");
@@ -16,6 +17,7 @@ void insideCarHud() {
     insideCar.beenInsideCar = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. open GlowBox");
     //insideCar.openGlowBox();

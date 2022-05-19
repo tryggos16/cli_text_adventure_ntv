@@ -8,6 +8,7 @@ void basementHud() {
   if(basement.beenToBasement == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. leave the Basement");
     keyCardScanner.hasKeyCardScannerCheck();
     print("----------");
@@ -17,6 +18,7 @@ void basementHud() {
     basement.beenToBasement = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. leave the Basement");
     keyCardScanner.hasKeyCardScannerCheck();
     print("----------");

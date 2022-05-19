@@ -5,9 +5,9 @@ import 'gumball_item.dart';
 
 class SmallBox {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
 
-  SmallBox(this.itemId, this.hasItem);
+  SmallBox(this.itemId, this.hasTakenItem);
 
   void brakeBox() {
     print("you smash the Box into the floor, and find a small ball");
@@ -18,7 +18,7 @@ class SmallBox {
   }
 
   void hasSmallBoxCheck() {
-    if(hasItem == false) {
+    if(hasTakenItem == false) {
       print("2. take SmallBox");
     }
   }

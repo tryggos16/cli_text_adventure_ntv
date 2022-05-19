@@ -17,13 +17,9 @@ class Basement {
 
   void takeStrangeBox() {
     player.pickUpItem(keyCardScanner.itemId);
-    keyCardScanner.hasItem = true;
+    keyCardScanner.hasTakenItem = true;
   }
 
-  void takeCandy() {
-    // todo add candy.
-  }
-  
 
 }
 Basement basement = Basement("Basement", false, false);

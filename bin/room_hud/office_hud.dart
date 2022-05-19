@@ -7,6 +7,7 @@ void officeHud() {
   if(office.beenToOffice == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. leave office");
     print("2. go to Desk");
     print("3. go to the piano");
@@ -17,6 +18,7 @@ void officeHud() {
     office.beenToOffice = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. leave office");
     print("2. go to Desk");
     print("3. go to the piano");

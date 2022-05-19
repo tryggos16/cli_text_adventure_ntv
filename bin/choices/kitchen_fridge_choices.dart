@@ -18,5 +18,8 @@ void byKitchenFridge() {
     } else if(input == "i") {
       player.openInventory();
     }
+    else {
+      print("Invalid");
+    }
   }
 }

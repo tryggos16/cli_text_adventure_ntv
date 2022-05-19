@@ -2,7 +2,9 @@
 
 import '../choices/basement_choices.dart';
 import '../choices/mainhall_choices.dart';
+import '../items/basementkey_item.dart';
 import '../items/lamp_item.dart';
+import '../player/player_stats.dart';
 
 class BasementDoor {
   final String roomId;
@@ -27,7 +29,7 @@ class BasementDoor {
   }
 
   void openDoor() {
-
+    basementKey.use();
   }
 
 

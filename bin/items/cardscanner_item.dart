@@ -4,11 +4,11 @@ import '../rooms/mainhall_redbutton.dart';
 
 class KeyCardScanner {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
   bool inPlace;
   bool cardInBox;
 
-  KeyCardScanner(this.itemId, this.hasItem, this.inPlace, this.cardInBox);
+  KeyCardScanner(this.itemId, this.hasTakenItem, this.inPlace, this.cardInBox);
 
   void putInPlace() {
     print("you put the Strange Box in the hole");
@@ -19,7 +19,7 @@ class KeyCardScanner {
 
     // todo add to correct place.
   void hasKeyCardScannerCheck() {
-    if(hasItem == false) {
+    if(hasTakenItem == false) {
       print("2. take Strange Box");
     }
   }

@@ -27,7 +27,7 @@ class OfficeDesk {
 
   void takeKeyCard() {
     player.pickUpItem(keyCard.itemId);
-    keyCard.hasItem = true;
+    keyCard.hasTakenItem = true;
   }
 
 

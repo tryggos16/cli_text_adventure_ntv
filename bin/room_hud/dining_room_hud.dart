@@ -7,6 +7,7 @@ void diningRoomHud() {
   if(diningRoom.beenToDiningRoom == true){
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go to the Kitchen");
     print("2. go to Living Room");
     lamp.hasLampCheck();
@@ -17,6 +18,7 @@ void diningRoomHud() {
     diningRoom.beenToDiningRoom = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go to the Kitchen");
     print("2. go to Living Room");
     lamp.hasLampCheck();

@@ -15,7 +15,7 @@ void inDeskDrawer() {
 
     if(input == "1") {
       deskDrawer.goBack();
-    } else if(!player.inventory.contains(noteBook.itemId)) {
+    } else if(noteBook.hasTakenItem == false) {
       deskDrawer.takeNoteBook();
     } else if(input == "i") {
       player.openInventory();

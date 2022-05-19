@@ -8,6 +8,7 @@ void bedRoomHud() {
   if(bedRoom.beenToBedRoom == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. leave BedRoom");
     smallBox.hasSmallBoxCheck();
     print("----------");
@@ -17,6 +18,7 @@ void bedRoomHud() {
     bedRoom.beenToBedRoom = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. leave BedRoom");
     smallBox.hasSmallBoxCheck();
     print("----------");

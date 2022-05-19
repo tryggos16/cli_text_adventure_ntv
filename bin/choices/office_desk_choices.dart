@@ -24,7 +24,7 @@ void byOfficeDesk() {
       byDeskKeyBoard();
     } else if(keyBoard.keyBoardPuzzleSolved == true && !player.inventory.contains(keyCard.itemId) && input == "5") {
       officeDesk.takeKeyCard();
-      print(keyCard.hasItem);
+      print(keyCard.hasTakenItem);
     } else if(input == "i") {
       player.openInventory();
     }

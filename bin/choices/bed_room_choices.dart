@@ -13,7 +13,7 @@ void inBedRoom() {
 
     if(input == "1") {
       bedRoom.goBack();
-    } else if(smallBox.hasItem == false && input == "2") {
+    } else if(smallBox.hasTakenItem == false && input == "2") {
       bedRoom.takeSmallBox();
     } else if(input == "i") {
       player.openInventory();

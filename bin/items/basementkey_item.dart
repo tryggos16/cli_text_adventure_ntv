@@ -6,9 +6,9 @@ import '../rooms/mainhall_basement_door.dart';
 
 class BasementKey {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
 
-  BasementKey(this.itemId, this.hasItem);
+  BasementKey(this.itemId, this.hasTakenItem);
 
   void use() {
     if(player.inventory.contains(basementKey.itemId)) {
@@ -22,7 +22,7 @@ class BasementKey {
 
   // this will show up on the ( office Desk Hud )
   void hasBasementKeyCheck() {
-    if(hasItem == false && brownRabbit.isGone == true) {
+    if(hasTakenItem == false && brownRabbit.isGone == true) {
       print("4. take Key");
     }
   }

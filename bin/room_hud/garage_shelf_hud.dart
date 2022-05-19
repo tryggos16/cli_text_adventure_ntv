@@ -8,6 +8,7 @@ void garageShelfHud() {
   if(garageShelf.beenToGarageShelf == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     oil.hasOilCheck();
     print("----------");
@@ -17,6 +18,7 @@ void garageShelfHud() {
     garageShelf.beenToGarageShelf = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     oil.hasOilCheck();
     print("----------");

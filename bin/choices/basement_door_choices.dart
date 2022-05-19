@@ -13,7 +13,11 @@ void byBasementDoor() {
     if(input == "1") {
       basementDoor.goBack();
     } else if(input == "2") {
-      basementDoor.moveToBasement();
+      if(basementDoor.isOpen == false) {
+        basementDoor.openDoor();
+      } else {
+        basementDoor.moveToBasement();
+      }
     } else if(input == "i") {
       player.openInventory();
     }

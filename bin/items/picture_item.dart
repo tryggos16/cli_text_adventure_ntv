@@ -2,9 +2,9 @@
 
 class Picture {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
 
-  Picture(this.itemId, this.hasItem);
+  Picture(this.itemId, this.hasTakenItem);
 
   void viewPicture() {
     print("it a drawn picture of 3 Rabbits and a Owl inFront of an old House.");
@@ -12,7 +12,7 @@ class Picture {
 
   // this will show up in the ( garage_glowBox_hud )
   void hasPictureCheck() {
-    if(hasItem == false) {
+    if(hasTakenItem == false) {
       print("2. take Picture");
     }
   }

@@ -14,7 +14,7 @@ void insideKitchenFridge() {
 
     if(input == "1") {
       openFrig.moveBack();
-    } else if(carrot.hasItem == false && input == "2") {
+    } else if(carrot.hasTakenItem == false && input == "2") {
       openFrig.takeCarrot();
     }
     else {

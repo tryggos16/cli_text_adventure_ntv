@@ -14,7 +14,7 @@ void inGarageShelf() {
 
     if(input == "1") {
       garageShelf.goBack();
-    } else if(oil.hasItem == false && input == "2") {
+    } else if(oil.hasTakenItem == false && input == "2") {
       garageShelf.takeOil();
     } else if(input == "i") {
       player.openInventory();

@@ -16,7 +16,7 @@ void inDiningRoom() {
       diningRoom.moveToKitchen();
     } else if(input == "2") {
       diningRoom.moveToLivingRoom();
-    } else if(!player.inventory.contains(lamp.itemId) && input == "3") {
+    } else if(lamp.hasTakenItem == false && input == "3") {
       diningRoom.takeLamp();
     }
     else if(input == "i") {

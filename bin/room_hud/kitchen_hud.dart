@@ -6,6 +6,7 @@ void kitchenHud() {
   if(kitchen.beenToKitchen == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go to MainHall");
     print("2. go to the DiningRoom");
     print("3. go to the Fridge");
@@ -16,6 +17,7 @@ void kitchenHud() {
     kitchen.beenToKitchen = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go to MainHall");
     print("2. go to the DiningRoom");
     print("3. go to the Fridge");

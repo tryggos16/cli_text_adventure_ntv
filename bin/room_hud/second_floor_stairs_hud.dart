@@ -7,6 +7,7 @@ void secondFloorStairsHud() {
   if(secondFloorStairs.beenToSecondFloorStairs == true){
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go down Stairs");
     secondFloorStairs.beenToOfficeCheck();
     print("3. go to BedRoom");
@@ -17,6 +18,7 @@ void secondFloorStairsHud() {
     secondFloorStairs.beenToSecondFloorStairs = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go down Stairs");
     secondFloorStairs.beenToOfficeCheck();
     print("3. go to BedRoom");

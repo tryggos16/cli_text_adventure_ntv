@@ -16,16 +16,16 @@ class InsideCar {
   }
 
   void openGlowBox() {
-    if (picture.hasItem == true) {
+    if (picture.hasTakenItem == true) {
       print("the GlowBox is empty");
-    } else if (picture.hasItem == false) {
+    } else if (picture.hasTakenItem == false) {
       print("you open the GlowBox and find a Picture");
       carGlowBoxHud();
       String? input = stdin.readLineSync();
       if (input == "1") {
         insideCar.goBack();
       } else if (input == "2") {
-        picture.hasItem = true;
+        picture.hasTakenItem = true;
         player.pickUpItem(picture.itemId);
       }
     }

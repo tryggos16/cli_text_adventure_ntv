@@ -7,6 +7,7 @@ void basementDoorHud() {
   if(basementDoor.beenToBasementDoor == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. go into the Basement");
     print("----------");
@@ -16,6 +17,7 @@ void basementDoorHud() {
     basementDoor.beenToBasementDoor = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. go into the Basement");
     print("----------");

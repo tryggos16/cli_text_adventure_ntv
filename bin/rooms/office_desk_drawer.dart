@@ -15,7 +15,7 @@ class DeskDrawer {
 
   void takeNoteBook() {
     player.pickUpItem(noteBook.itemId);
-    noteBook.hasItem = true;
+    noteBook.hasTakenItem = true;
   }
 
 }

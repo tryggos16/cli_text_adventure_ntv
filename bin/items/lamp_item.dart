@@ -1,11 +1,11 @@
 
 class Lamp {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
   bool hasOil;
   bool lampUp;
 
-  Lamp(this.itemId, this.hasOil, this.lampUp, this.hasItem);
+  Lamp(this.itemId, this.hasOil, this.lampUp, this.hasTakenItem);
 
   void use() {
     if(hasOil == true) {
@@ -19,7 +19,7 @@ class Lamp {
 
   // this will show up on the ( officeDeskHud )
   void hasLampCheck() {
-    if(hasItem == false) {
+    if(hasTakenItem == false) {
       print("3. take Lamp");
     }
   }

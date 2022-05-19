@@ -31,7 +31,6 @@ class GumBall {
     else {
       print("Invalid");
     }
-    // todo add func
   }
 
 }

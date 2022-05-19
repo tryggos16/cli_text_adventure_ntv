@@ -17,19 +17,17 @@ class KitchenFrig {
   }
 
   void openFrigDoor() {
-    if(carrot.hasItem == true) {
-      print("the Fridge is empty.");
-    } else {
+    if(carrot.hasTakenItem == false) {
       print("you open the Refrigerator");
-    }
-
-    // todo change!
-    insideKitchenFridge();
-    String? input = stdin.readLineSync();
-    if(input == "1") {
-      openFrig.takeOrClose();
-    } else if(input == "2") {
-      inKitchen();
+      insideKitchenFridge();
+      String? input = stdin.readLineSync();
+      if(input == "1") {
+        openFrig.takeOrClose();
+      } else if(input == "2") {
+        inKitchen();
+      }
+    } else {
+      print("the Fridge is empty.");
     }
   }
 

@@ -9,6 +9,7 @@ void livingRoomHud() {
   if(livingRoom.beenToLivingRoom == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go to the MainHall");
     print("2. go to the Dining Room");
     print("3. look at the TV");
@@ -21,6 +22,7 @@ void livingRoomHud() {
     livingRoom.beenToLivingRoom = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go to the MainHall");
     print("2. go to the Dining Room");
     print("3. look at the TV");

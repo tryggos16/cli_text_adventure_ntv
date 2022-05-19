@@ -8,8 +8,9 @@ void mainHallStairsHud() {
     // todo add text
     print("----------");
     print("Location: ${player.location}");
-    print("1. go up the Stairs");
-    print("2. go back");
+    print("----------");
+    print("1. go back");
+    print("2. go up the Stairs");
     print("----------");
   }
   else {
@@ -17,8 +18,9 @@ void mainHallStairsHud() {
     mainHallStairs.beenToMainHallStairs = true;
     print("----------");
     print("Location: ${player.location}");
-    print("1. go up the Stairs");
-    print("2. go back");
+    print("----------");
+    print("1. go back");
+    print("2. go up the Stairs");
     print("----------");
   }
 }

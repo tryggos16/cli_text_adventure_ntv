@@ -8,6 +8,7 @@ void byOfficeDoorHud() {
   if(officeDoor.beenToOfficeDoor == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. open the door");
     officeKey.hasOfficeKeyCheck();
@@ -18,6 +19,7 @@ void byOfficeDoorHud() {
     officeDoor.beenToOfficeDoor = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. go back");
     print("2. open the door");
     officeKey.hasOfficeKeyCheck();

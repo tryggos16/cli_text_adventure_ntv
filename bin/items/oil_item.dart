@@ -3,9 +3,9 @@ import 'lamp_item.dart';
 
 class Oil {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
 
-  Oil(this.itemId, this.hasItem);
+  Oil(this.itemId, this.hasTakenItem);
 
   void use() {
     if(player.inventory.contains(lamp.itemId)) {
@@ -20,7 +20,7 @@ class Oil {
 
   // this will show up on the ( garage_shelf_hud )
   void hasOilCheck() {
-    if(hasItem == false) {
+    if(hasTakenItem == false) {
       print("2. take Oil");
     }
   }

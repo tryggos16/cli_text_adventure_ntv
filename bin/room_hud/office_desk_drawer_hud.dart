@@ -8,6 +8,7 @@ void officeDeskDrawerHud() {
   if(deskDrawer.beenToDeskDrawer == true) {
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. to close Drawer");
     noteBook.hasNoteBookCheck();
     print("----------");
@@ -17,6 +18,7 @@ void officeDeskDrawerHud() {
     deskDrawer.beenToDeskDrawer = true;
     print("----------");
     print("Location: ${player.location}");
+    print("----------");
     print("1. to close Drawer");
     noteBook.hasNoteBookCheck();
     print("----------");

@@ -26,7 +26,7 @@ class OpenFrig {
 
   void takeCarrot() {
     player.pickUpItem(carrot.itemId);
-    carrot.hasItem = true;
+    carrot.hasTakenItem = true;
   }
 
 }

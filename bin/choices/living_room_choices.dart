@@ -26,8 +26,8 @@ void inLivingRoom() {
       else {
         livingRoom.catchRabbit();
       }
-    } else if(basementKey.hasItem == false && input == "4") {
-      brownRabbit.takeBasementKey();
+    } else if(basementKey.hasTakenItem == false && input == "4") {
+      livingRoom.takeBasementKey();
     }
     else if(input == "i") {
       player.openInventory();

@@ -3,9 +3,9 @@ import '../rooms/living_room.dart';
 
 class Carrot {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
 
-  Carrot(this.itemId, this.hasItem);
+  Carrot(this.itemId, this.hasTakenItem);
 
   void use() {
     print("you think of eating the carrot, but it could be used for something else");
@@ -19,7 +19,7 @@ class Carrot {
 
   // this will show up on the ( kitchen_frig_open_hud )
   void hasCarrotCheck() {
-    if(hasItem == false) {
+    if(hasTakenItem == false) {
       print("2. take Carrot");
     }
   }

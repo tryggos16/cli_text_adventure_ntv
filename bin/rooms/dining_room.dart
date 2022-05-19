@@ -21,7 +21,7 @@ class DiningRoom {
 
   void takeLamp() {
     player.pickUpItem(lamp.itemId);
-    lamp.hasItem = true;
+    lamp.hasTakenItem = true;
   }
 
 

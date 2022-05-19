@@ -27,12 +27,15 @@ class BrownRabbit {
 
   int textNum = 0;
   void talkToRabbit() {
-    if(textNum == 4) {
-      if(player.inventory.contains(gumBall.itemId)) {
-        gumBall.giveGumBall();
-      }
+    if(player.inventory.contains(gumBall.itemId) && textNum == 4) {
+      print("Brown Rabbit: hey is that candy you got there?  can i have it?");
+      dialogDone = true;
+      print(dialogDone);
+      gumBall.giveGumBall();
+    } else if(textNum == 4) {
       print("go away, im watching TV");
       dialogDone = true;
+      print(dialogDone);
     }
     else {
       // todo add Text log [textNum]
@@ -41,9 +44,5 @@ class BrownRabbit {
     }
   }
 
-  void takeBasementKey() {
-    player.pickUpItem(basementKey.itemId);
-    basementKey.hasItem = true;
-  }
 }
 BrownRabbit brownRabbit = BrownRabbit("Brown Rabbit", false, false, false);

@@ -41,4 +41,4 @@ class SecondFloorStairs {
   }
 
 }
-SecondFloorStairs secondFloorStairs = SecondFloorStairs("Second Floor Stairs", false);
+SecondFloorStairs secondFloorStairs = SecondFloorStairs("SecondFloor Stairs", false);

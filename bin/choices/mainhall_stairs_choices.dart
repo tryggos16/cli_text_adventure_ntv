@@ -13,9 +13,9 @@ void byMainHallStairs() {
     String? input = stdin.readLineSync();
 
     if(input == "1") {
-      mainHallStairs.moveUpStairs();
-    } else if(input == "2") {
       mainHallStairs.goBack();
+    } else if(input == "2") {
+      mainHallStairs.moveUpStairs();
     } else if(input == "i") {
       player.openInventory();
     }

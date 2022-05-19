@@ -26,7 +26,7 @@ class OfficeDoor {
 
   void takeOfficeKey() {
     player.pickUpItem(officeKey.itemId);
-    officeKey.hasItem = true;
+    officeKey.hasTakenItem = true;
   }
 
 

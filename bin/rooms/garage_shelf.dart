@@ -15,7 +15,7 @@ class GarageShelf {
 
   void takeOil() {
     player.pickUpItem(oil.itemId);
-    oil.hasItem = true;
+    oil.hasTakenItem = true;
   }
 
 

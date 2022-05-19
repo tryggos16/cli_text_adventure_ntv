@@ -1,5 +1,4 @@
 
-
 import '../choices/second _floor_stairs_choices.dart';
 import '../items/smallbox_item.dart';
 import '../player/player_stats.dart';
@@ -18,9 +17,9 @@ class BedRoom {
   void takeSmallBox() {
     player.pickUpItem(smallBox.itemId);
     print("you got the box without waking up the sleeping rabbit");
-    smallBox.hasItem = true;
+    smallBox.hasTakenItem = true;
   }
 
 
 }
-BedRoom bedRoom = BedRoom("Bedroom", false);
+BedRoom bedRoom = BedRoom("BedRoom", false);

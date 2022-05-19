@@ -5,9 +5,9 @@ import 'cardscanner_item.dart';
 
 class KeyCard {
   final String itemId;
-  bool hasItem;
+  bool hasTakenItem;
 
-  KeyCard(this.itemId, this.hasItem);
+  KeyCard(this.itemId, this.hasTakenItem);
 
   void use() {
     print("you put the card into the box");
@@ -20,7 +20,7 @@ class KeyCard {
 
   // this will show up on the ( officeDeskHud )
   void hasKeyCardCheck() {
-    if(hasItem == false && keyBoard.keyBoardPuzzleSolved == true) {
+    if(hasTakenItem == false && keyBoard.keyBoardPuzzleSolved == true) {
       print("5. take Item");
     }
   }

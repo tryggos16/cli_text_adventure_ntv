@@ -8,7 +8,7 @@ import 'npc/white_rabbit_npc.dart';
 
 
 void main() {
-  print(officeKey.hasItem);
+  print(officeKey.hasTakenItem);
   print(whiteRabbit.isVisible);
   play();
 
