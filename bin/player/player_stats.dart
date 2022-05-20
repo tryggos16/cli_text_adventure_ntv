@@ -108,14 +108,14 @@ class Player {
       smallBox.brakeBox();
     }
     else {
-      print("i don't think that is gonna help");
+      print("i don't think that's is gonna help");
     }
   }
 
   void helpInfo() {
-    print("to open Inventory press i. to quit type quit");
+    print("to open Inventory press ( i ). to quit type quit");
   }
 
 
 }
-Player player = Player("", [gumBall.itemId, carrot.itemId]);
+Player player = Player("", []);

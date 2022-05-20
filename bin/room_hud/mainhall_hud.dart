@@ -1,6 +1,7 @@
 import '../player/player_stats.dart';
-import '../rooms/garage.dart';
 import '../rooms/mainhall.dart';
+import '../text/mainhall_text.dart';
+import '../text/playtext_func.dart';
 
 
 // these are the options that the player will see ( inMainHall )
@@ -18,7 +19,7 @@ void mainHallHud() {
     print("----------");
   }
   else {
-    // todo add Text.
+    playText(mainHallText);
     mainHall.beenToMainHall = true;
     print("----------");
     print("Location: ${player.location}");

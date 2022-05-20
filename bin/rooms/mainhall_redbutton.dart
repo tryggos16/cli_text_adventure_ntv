@@ -1,5 +1,5 @@
 
-
+import 'dart:io';
 import '../choices/mainhall_choices.dart';
 import '../items/cardscanner_item.dart';
 import '../items/keycard_item.dart';
@@ -26,13 +26,11 @@ class MainHallRedButton {
       print("you ignored the warnings and pressed the red button again.");
       print("A Trapdoor opened beneath your feet and you fall down into the abyss.");
       print("               - GAME OVER! -        ") ;
-
+      exit(0);
     }
     else {
-      print(buttonPressed);
       print(warningText[buttonPressed]);
       buttonPressed++;
-
     }
   }
 

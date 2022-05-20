@@ -15,5 +15,5 @@ void main() {
 }
 
 void play() {
-  inMainHall();
+  inForest();
 }
