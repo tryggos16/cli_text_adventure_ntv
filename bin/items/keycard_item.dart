@@ -1,5 +1,4 @@
 import '../player/player_stats.dart';
-import '../rooms/mainhall_redbutton.dart';
 import '../rooms/office_desk_keyboard.dart';
 import 'cardscanner_item.dart';
 
@@ -19,7 +18,7 @@ class KeyCard {
   // this will show up on the ( officeDeskHud )
   void hasKeyCardCheck() {
     if(hasTakenItem == false && keyBoard.keyBoardPuzzleSolved == true) {
-      print("5. take Item");
+      print("4. take Item");
     }
   }
 

@@ -8,12 +8,10 @@ import 'npc/white_rabbit_npc.dart';
 
 
 void main() {
-  print(officeKey.hasTakenItem);
-  print(whiteRabbit.isVisible);
   play();
 
 }
 
 void play() {
-  inForest();
+  inOffice();
 }

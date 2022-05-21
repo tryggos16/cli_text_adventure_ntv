@@ -1,5 +1,7 @@
 import '../player/player_stats.dart';
 import '../rooms/kitchen.dart';
+import '../text/kitchen_text.dart';
+import '../text/playtext_func.dart';
 
 // these are the options that the player will see ( inKitchen )
 void kitchenHud() {
@@ -13,6 +15,7 @@ void kitchenHud() {
     print("----------");
   }
   else {
+    playText(kitchenText);
     // todo add Text
     kitchen.beenToKitchen = true;
     print("----------");

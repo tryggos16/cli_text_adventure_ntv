@@ -3,6 +3,8 @@
 import '../items/cardscanner_item.dart';
 import '../player/player_stats.dart';
 import '../rooms/basement.dart';
+import '../text/basement_text.dart';
+import '../text/playtext_func.dart';
 
 void basementHud() {
   if(basement.beenToBasement == true) {
@@ -14,6 +16,7 @@ void basementHud() {
     print("----------");
   }
   else {
+    playText(basementText);
     // todo add Text.
     basement.beenToBasement = true;
     print("----------");

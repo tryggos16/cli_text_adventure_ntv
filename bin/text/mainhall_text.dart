@@ -1,14 +1,15 @@
-import 'dart:io';
+
 
 List<String> mainHallText = [
   """you open the door of the Shack and see nothing inside, it's pitch black.
   player: Well its better then standing outside.
   you step Inside.. SLAM! the door closes behind and you can't see anything,
-  suddenly Lights turn on and you find yourself in a old house.
+  suddenly Lights turn on and you find yourself in a old house,
+  walls and floor made with wood.
   player: WHAT! have i been teleported somewhere?""",
 
   """Owl: Greetings human. Says the Owl sitting on top the chandelier.
-  player: Who are you? and how can you talk? And WHERE AM I?
+  player: Who are you? And how can you talk? And WHERE AM I?
   Owl: I am the Owl. I can speak because magic, And you are in the small puzzle house.
   player: Ok so how can i get out?
   Owl: To leave you must find the hints scattered around, And use them to get the necessary items. 

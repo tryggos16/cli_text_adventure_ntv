@@ -16,9 +16,7 @@ void inOffice() {
       office.moveToSecondFloorStairs();
     } else if(input == "2") {
       office.moveToDesk();
-    } else if(input == "3") {
-      // todo add moveToPiano - func
-    } else if(input == "i") {
+    }  else if(input == "i") {
       player.openInventory();
     }
     else {

@@ -1,7 +1,6 @@
 
 import 'dart:io';
 import '../items/keycard_item.dart';
-import '../items/lamp_item.dart';
 import '../player/player_stats.dart';
 import '../room_hud/office_desk_hud.dart';
 import '../rooms/office_desk.dart';
@@ -22,9 +21,8 @@ void byOfficeDesk() {
       officeDesk.openDeskDrawer();
     } else if(input == "3") {
       byDeskKeyBoard();
-    } else if(keyBoard.keyBoardPuzzleSolved == true && !player.inventory.contains(keyCard.itemId) && input == "5") {
+    } else if(keyBoard.keyBoardPuzzleSolved == true && keyCard.hasTakenItem == false && input == "4") {
       officeDesk.takeKeyCard();
-      print(keyCard.hasTakenItem);
     } else if(input == "i") {
       player.openInventory();
     }

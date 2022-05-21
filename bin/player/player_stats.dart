@@ -118,4 +118,4 @@ class Player {
 
 
 }
-Player player = Player("", []);
+Player player = Player("", [carrot.itemId]);

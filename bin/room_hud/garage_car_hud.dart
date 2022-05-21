@@ -1,5 +1,7 @@
 import '../player/player_stats.dart';
 import '../rooms/garage_car.dart';
+import '../text/garage_car_text.dart';
+import '../text/playtext_func.dart';
 
 // these are the options that the player will see ( inGarageCar )
 void garageCarHud() {
@@ -13,6 +15,7 @@ void garageCarHud() {
     print("----------");
   }
   else {
+    playText(garageCarText);
     // todo add Text
     garageCar.beenToCar = true;
     print("----------");

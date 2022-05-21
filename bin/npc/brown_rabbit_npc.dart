@@ -1,8 +1,8 @@
 
-
-import '../items/basementkey_item.dart';
 import '../items/gumball_item.dart';
 import '../player/player_stats.dart';
+import '../text/brown_rabbit_text.dart';
+import '../text/playtext_func.dart';
 
 class BrownRabbit {
   final String npcId;
@@ -25,20 +25,19 @@ class BrownRabbit {
   }
 
 
-  int textNum = 0;
+
   void talkToRabbit() {
-    if(player.inventory.contains(gumBall.itemId) && textNum == 4) {
-      print("Brown Rabbit: hey is that candy you got there? can i have it?");
-      dialogDone = true;
+    if(player.inventory.contains(gumBall.itemId) && dialogDone == true) {
+      print("Brown Rabbit: hey is that candy you got there?");
+
       gumBall.giveGumBall();
-    } else if(textNum == 4) {
+    } else if(dialogDone == true) {
       print("go away, im watching TV");
-      dialogDone = true;
+
     }
     else {
-      // todo add Text log [textNum]
-      print(textNum);
-      textNum += 1;
+      playText(brownRabbitTalkText);
+      dialogDone = true;
     }
   }
 

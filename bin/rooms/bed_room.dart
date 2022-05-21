@@ -1,5 +1,5 @@
 
-import '../choices/second _floor_stairs_choices.dart';
+import '../choices/second_floor_stairs_choices.dart';
 import '../items/smallbox_item.dart';
 import '../player/player_stats.dart';
 

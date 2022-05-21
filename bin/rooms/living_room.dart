@@ -4,6 +4,8 @@ import '../choices/mainhall_choices.dart';
 import '../items/basementkey_item.dart';
 import '../npc/brown_rabbit_npc.dart';
 import '../player/player_stats.dart';
+import '../text/brown_rabbit_text.dart';
+import '../text/playtext_func.dart';
 
 class LivingRoom {
   final String roomId;
@@ -31,6 +33,7 @@ class LivingRoom {
   void catchRabbit() {
     if(carrotOnFloor == true) {
       print("after distracting the rabbit with the carrot, you were able to catch it");
+      playText(brownRabbitCatchText);
       brownRabbit.rabbitGot = true;
     }
     else {

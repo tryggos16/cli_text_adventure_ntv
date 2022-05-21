@@ -1,5 +1,4 @@
 import '../items/keycard_item.dart';
-import '../items/lamp_item.dart';
 import '../player/player_stats.dart';
 import '../rooms/office_desk.dart';
 
@@ -17,7 +16,6 @@ void officeDeskHud() {
     print("----------");
   }
   else {
-    // todo add Text.
     officeDesk.beenToOfficeDesk = true;
     print("----------");
     print("Location: ${player.location}");

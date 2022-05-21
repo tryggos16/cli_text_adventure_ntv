@@ -1,5 +1,9 @@
 
 
+List<String> redButtonText = [
+  """It's a circular redButton on the wall, below the button is a square hole"""
+];
+
 List<String> warningText = [
 "Warning pressing this button 5 time without the ( open commend ) being active will result in a Game Over!",
   "you have pressed the Red button 2 Times! did you not read the Warning Text?",
