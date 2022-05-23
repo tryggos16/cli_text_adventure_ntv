@@ -14,5 +14,5 @@ void main() {
 }
 
 void play() {
-  inLivingRoom();
+  inForest();
 }
