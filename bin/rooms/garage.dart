@@ -23,11 +23,5 @@ class Garage {
     inGarageShelf();
   }
 
-  void moveToWorkBench() {
-    print("you walked over to the WorkBench");
-    // todo add func.
-  }
-
-
 }
 Garage garage = Garage("Garage", false);

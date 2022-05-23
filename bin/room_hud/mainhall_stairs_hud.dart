@@ -5,7 +5,7 @@ import '../rooms/mainhall_stairs.dart';
 // these are the options that the player will see ( byMainHallStairs )
 void mainHallStairsHud() {
   if(mainHallStairs.beenToMainHallStairs == true) {
-    // todo add text
+
     print("----------");
     print("Location: ${player.location}");
     print("----------");
@@ -14,7 +14,6 @@ void mainHallStairsHud() {
     print("----------");
   }
   else {
-    // todo add Text.
     mainHallStairs.beenToMainHallStairs = true;
     print("----------");
     print("Location: ${player.location}");

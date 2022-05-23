@@ -13,7 +13,6 @@ void kitchenFrigHud() {
     print("----------");
   }
   else {
-    // todo add Text.
     kitchenFrig.bennToKitchenFrig = true;
     print("----------");
     print("Location: ${player.location}");

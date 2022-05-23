@@ -22,7 +22,6 @@ class GumBall {
       print("Brown Rabbit: if you let me have the candy, i might give you a key to get out of this place?");
       inLivingRoom();
     } else if(input == "2") {
-      // todo fix text.
       print("Brown Rabbit: thanks");
       print("the Rabbit eats the gumBall and starts chewing.\n Suddenly the Rabbit starts bulging up like a balloon and Explodes leaving a Key? behind");
       brownRabbit.isGone = true;

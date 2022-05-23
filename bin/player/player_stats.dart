@@ -46,6 +46,12 @@ class Player {
   }
 
   void dropItem() {
+    print("-----");
+    print(":Drop Item:");
+    print("-----");
+    print("Inventory: ${player.inventory}");
+    print("Type in the item you wish to Drop");
+    print("------");
     print("what item do you wish to drop?");
     String? playerInput = stdin.readLineSync();
     if(player.inventory.contains(playerInput)) {
@@ -59,8 +65,10 @@ class Player {
 
   void useItem() {
     print("-----");
-    print(":use Item:");
-    print("select the item you wish to use");
+    print(":Use Item:");
+    print("-----");
+    print("Inventory: ${player.inventory}");
+    print("Type in the item you wish to Use");
     print("------");
     String? playerInput = stdin.readLineSync();
     if(player.inventory.contains(playerInput)) {
@@ -100,10 +108,11 @@ class Player {
   void breakItem() {
     print("-----");
     print(":Break Item:");
-    print("select the item you wish to Break");
+    print("-----");
+    print("Inventory: ${player.inventory}");
+    print("Type in the item you wish to Break");
     print("------");
     String? playerInput = stdin.readLineSync();
-
     if(playerInput == smallBox.itemId) {
       smallBox.brakeBox();
     }
@@ -114,6 +123,7 @@ class Player {
 
   void helpInfo() {
     print("to open Inventory press ( i ).");
+    print("To Use, Drop, or Break Items. Type in the name of the Item. - CaseSensitive -");
   }
 
 

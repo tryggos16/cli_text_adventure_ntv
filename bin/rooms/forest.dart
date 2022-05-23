@@ -11,7 +11,6 @@ class Forest {
   }
   void doNothing() {
     print("you stand still and do nothing");
-    // todo maybe add func.
   }
 }
 Forest forest = Forest("Forest", false);

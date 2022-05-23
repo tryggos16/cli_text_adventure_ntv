@@ -23,7 +23,7 @@ class BasementDoor {
       inBasement();
     }
     else {
-      print("im not going down there!");
+      print("Player: it's too dark to see, i need something to light up the dark");
     }
   }
 

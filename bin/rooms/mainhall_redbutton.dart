@@ -5,7 +5,6 @@ import '../items/cardscanner_item.dart';
 import '../items/keycard_item.dart';
 import '../npc/owl_npc.dart';
 import '../player/player_stats.dart';
-import '../text/playtext_func.dart';
 import '../text/redbutton_text.dart';
 
 class MainHallRedButton {

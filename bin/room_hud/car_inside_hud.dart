@@ -13,7 +13,6 @@ void insideCarHud() {
     print("----------");
   }
   else {
-    // todo add Text.
     insideCar.beenInsideCar = true;
     print("----------");
     print("Location: ${player.location}");

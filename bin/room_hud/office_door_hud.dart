@@ -15,7 +15,6 @@ void byOfficeDoorHud() {
     print("----------");
   }
   else {
-    // todo add Text.
     officeDoor.beenToOfficeDoor = true;
     print("----------");
     print("Location: ${player.location}");

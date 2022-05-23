@@ -10,7 +10,7 @@ void carGlowBoxHud() {
     print("----------");
   }
   else {
-    // todo add Text.
+
     insideCar.beenInsideCar = true;
     print("----------");
     print("1. go back");

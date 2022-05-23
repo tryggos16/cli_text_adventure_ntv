@@ -17,7 +17,6 @@ void basementHud() {
   }
   else {
     playText(basementText);
-    // todo add Text.
     basement.beenToBasement = true;
     print("----------");
     print("Location: ${player.location}");

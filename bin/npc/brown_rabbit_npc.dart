@@ -24,16 +24,12 @@ class BrownRabbit {
     }
   }
 
-
-
   void talkToRabbit() {
     if(player.inventory.contains(gumBall.itemId) && dialogDone == true) {
       print("Brown Rabbit: hey is that candy you got there?");
-
       gumBall.giveGumBall();
     } else if(dialogDone == true) {
       print("go away, im watching TV");
-
     }
     else {
       playText(brownRabbitTalkText);

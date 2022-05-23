@@ -13,7 +13,6 @@ void basementDoorHud() {
     print("----------");
   }
   else {
-    // todo add Text.
     basementDoor.beenToBasementDoor = true;
     print("----------");
     print("Location: ${player.location}");

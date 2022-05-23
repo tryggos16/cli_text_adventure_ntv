@@ -16,7 +16,6 @@ void kitchenHud() {
   }
   else {
     playText(kitchenText);
-    // todo add Text
     kitchen.beenToKitchen = true;
     print("----------");
     print("Location: ${player.location}");

@@ -16,7 +16,6 @@ void garageCarHud() {
   }
   else {
     playText(garageCarText);
-    // todo add Text
     garageCar.beenToCar = true;
     print("----------");
     print("Location: ${player.location}");

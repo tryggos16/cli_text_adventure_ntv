@@ -17,7 +17,6 @@ void garageShelfHud() {
   }
   else {
     playText(garageShelfText);
-    // todo add Text
     garageShelf.beenToGarageShelf = true;
     print("----------");
     print("Location: ${player.location}");

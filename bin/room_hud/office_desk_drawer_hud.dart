@@ -14,7 +14,6 @@ void officeDeskDrawerHud() {
     print("----------");
   }
   else {
-    // todo add text.
     deskDrawer.beenToDeskDrawer = true;
     print("----------");
     print("Location: ${player.location}");
