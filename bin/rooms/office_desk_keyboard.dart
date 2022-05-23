@@ -40,4 +40,4 @@ class KeyBoard {
   }
 
 }
-KeyBoard keyBoard = KeyBoard("Desk KeyBoard", false, false, "dart");
+KeyBoard keyBoard = KeyBoard("Desk KeyBoard", false, false, "dArT");

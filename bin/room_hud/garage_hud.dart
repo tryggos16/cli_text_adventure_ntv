@@ -13,12 +13,10 @@ void garageHud() {
     print("1. go to MainHall");
     print("2. go to Car");
     print("3. go to Shelf");
-    print("4. go to WorkBench");
     print("----------");
   }
   else {
     playText(garageText);
-    // todo add Text.
     garage.beenToGarage = true;
     print("----------");
     print("Location: ${player.location}");
@@ -26,7 +24,6 @@ void garageHud() {
     print("1. go to MainHall");
     print("2. go to Car");
     print("3. go to Shelf");
-    print("4. go to WorkBench");
     print("----------");
   }
 }

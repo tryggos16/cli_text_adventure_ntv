@@ -18,9 +18,11 @@ void inDiningRoom() {
       diningRoom.moveToLivingRoom();
     } else if(lamp.hasTakenItem == false && input == "3") {
       diningRoom.takeLamp();
-    }
-    else if(input == "i") {
+
+    } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

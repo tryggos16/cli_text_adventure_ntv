@@ -17,8 +17,7 @@ void inGarage() {
       garage.moveToCar();
     } else if(input == "3") {
       garage.moveToShelf();
-    } else if(input == "4") {
-      garage.moveToWorkBench();
+
     } else if(input == "i") {
       player.openInventory();
     } else if(input == "help") {

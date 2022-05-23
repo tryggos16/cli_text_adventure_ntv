@@ -23,8 +23,11 @@ void byOfficeDesk() {
       byDeskKeyBoard();
     } else if(keyBoard.keyBoardPuzzleSolved == true && keyCard.hasTakenItem == false && input == "4") {
       officeDesk.takeKeyCard();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

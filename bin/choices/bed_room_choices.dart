@@ -15,8 +15,11 @@ void inBedRoom() {
       bedRoom.goBack();
     } else if(smallBox.hasTakenItem == false && input == "2") {
       bedRoom.takeSmallBox();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

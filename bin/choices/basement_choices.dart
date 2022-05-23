@@ -15,8 +15,11 @@ void inBasement() {
       basement.goBack();
     } else if(!player.inventory.contains(keyCardScanner.itemId) && input == "2") {
       basement.takeStrangeBox();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

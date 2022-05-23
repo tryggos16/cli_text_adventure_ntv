@@ -5,6 +5,7 @@ import '../rooms/mainhall_redbutton.dart';
 
 void redButtonHud() {
   if(mainHallRedButton.beenToMainHallRedButton == true) {
+    mainHallRedButton.buttonIsHotCheck();
     print("----------");
     print("Location: ${player.location}");
     print("----------");
@@ -15,7 +16,7 @@ void redButtonHud() {
     print("----------");
   }
   else {
-    // todo add Text
+    mainHallRedButton.buttonIsHotCheck();
     mainHallRedButton.beenToMainHallRedButton = true;
     print("----------");
     print("Location: ${player.location}");

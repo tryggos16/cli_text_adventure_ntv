@@ -14,6 +14,11 @@ void inForest() {
 
     if(input == "1") {
       forest.enterShack();
+
+    } else if(input == "i") {
+      player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       forest.doNothing();

@@ -15,8 +15,11 @@ void inGarageCar() {
       insideCar.goBack();
     } else if(input == "2") {
       insideCar.openGlowBox();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("invalid");

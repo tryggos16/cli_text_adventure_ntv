@@ -17,8 +17,11 @@ void inDeskDrawer() {
       deskDrawer.goBack();
     } else if(noteBook.hasTakenItem == false) {
       deskDrawer.takeNoteBook();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("invalid");

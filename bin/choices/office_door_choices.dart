@@ -20,8 +20,11 @@ void byOfficeDoor() {
       officeDoor.openOfficeDoor();
     } else if(!player.inventory.contains(officeKey.itemId) && whiteRabbit.isVisible && input == "3") {
       officeDoor.takeOfficeKey();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

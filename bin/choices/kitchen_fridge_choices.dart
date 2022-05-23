@@ -15,8 +15,11 @@ void byKitchenFridge() {
       kitchenFrig.goBack();
     } else if(input == "2") {
       kitchenFrig.openFrigDoor();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

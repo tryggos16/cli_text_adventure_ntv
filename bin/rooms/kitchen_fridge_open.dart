@@ -3,12 +3,12 @@ import '../choices/kitchen_choices.dart';
 import '../items/carrot_item.dart';
 import '../player/player_stats.dart';
 
-class OpenFrig {
+class OpenFridge {
   final String roomId;
   bool beenToOpenFridge;
 
 
-  OpenFrig(this.roomId, this.beenToOpenFridge);
+  OpenFridge(this.roomId, this.beenToOpenFridge);
 
   void moveBack() {
     print("you closed the Fridge and moved back");
@@ -30,4 +30,4 @@ class OpenFrig {
   }
 
 }
-OpenFrig openFrig = OpenFrig("Kitchen Frig",false);
+OpenFridge openFrig = OpenFridge("Kitchen Frig",false);

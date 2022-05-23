@@ -7,6 +7,7 @@ import '../text/playtext_func.dart';
 // these are the options that the player will see ( inDiningRoom )
 void diningRoomHud() {
   if(diningRoom.beenToDiningRoom == true){
+    diningRoom.showLetter();
     print("----------");
     print("Location: ${player.location}");
     print("----------");
@@ -17,6 +18,7 @@ void diningRoomHud() {
   }
   else {
     playText(diningRoomText);
+    diningRoom.showLetter();
     diningRoom.beenToDiningRoom = true;
     print("----------");
     print("Location: ${player.location}");

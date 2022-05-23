@@ -20,12 +20,13 @@ void inMainHall() {
       mainHall.moveToLivingRoom();
     }  else if(input == "5") {
       mainHall.moveToBasementDoor();
-
     } else if(input == "6") {
       mainHall.moveToRedButton();
-    }
-    else if(input == "i") {
+
+    } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("invalid");

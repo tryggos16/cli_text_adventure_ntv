@@ -113,9 +113,9 @@ class Player {
   }
 
   void helpInfo() {
-    print("to open Inventory press ( i ). to quit type quit");
+    print("to open Inventory press ( i ).");
   }
 
 
 }
-Player player = Player("", [carrot.itemId]);
+Player player = Player("", [carrot.itemId, keyCardScanner.itemId, keyCard.itemId]);

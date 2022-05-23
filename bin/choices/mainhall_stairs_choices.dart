@@ -16,8 +16,11 @@ void byMainHallStairs() {
       mainHallStairs.goBack();
     } else if(input == "2") {
       mainHallStairs.moveUpStairs();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

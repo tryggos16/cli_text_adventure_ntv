@@ -19,9 +19,11 @@ void bySecondFloorStairs() {
       secondFloorStairs.moveToOfficeDoor();
     } else if(input == "3") {
       secondFloorStairs.moveToBedRoom();
-    }
-    else if(input == "i") {
+
+    } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

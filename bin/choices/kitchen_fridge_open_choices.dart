@@ -15,6 +15,11 @@ void insideKitchenFridge() {
       openFrig.moveBack();
     } else if(carrot.hasTakenItem == false && input == "2") {
       openFrig.takeCarrot();
+
+    } else if(input == "i") {
+      player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

@@ -5,12 +5,14 @@ import '../choices/inside_car_choices.dart';
 class GarageCar {
   final String roomId;
   bool beenToCar;
+  bool checkedHood;
 
-  GarageCar(this.roomId, this.beenToCar);
+  GarageCar(this.roomId, this.beenToCar, this.checkedHood);
 
   void openCarHood(){
     print("you open the hood of the car. there is no engine");
-    // todo add own hud
+    print("you see the letter 'd' carved under the hood");
+    checkedHood = true;
   }
 
 
@@ -28,4 +30,4 @@ class GarageCar {
 
 
 }
-GarageCar garageCar = GarageCar("GarageCar", false);
+GarageCar garageCar = GarageCar("GarageCar", false, false);

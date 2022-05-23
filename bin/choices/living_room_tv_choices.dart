@@ -13,10 +13,13 @@ void byTv() {
 
     if(input == "1") {
       tv.moveBack();
-    } else if(input == "2") {
-      tv.turnPower();
+    } else if(tv.hasPressedPowerButton == false && input == "2") {
+      tv.pressPowerButton();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("invalid");

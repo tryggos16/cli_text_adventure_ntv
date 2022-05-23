@@ -24,6 +24,11 @@ class DiningRoom {
     lamp.hasTakenItem = true;
   }
 
+  void showLetter() {
+    if(lamp.hasTakenItem == true) {
+      print("there is a 'r' carved into the table where the lamp was");
+    }
+  }
 
 }
 DiningRoom diningRoom = DiningRoom("DiningRoom", false);

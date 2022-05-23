@@ -15,8 +15,11 @@ void byDeskKeyBoard() {
       keyBoard.goBack();
     } else if(keyBoard.keyBoardPuzzleSolved == false && input == "2") {
       keyBoard.tryPuzzle();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("invalid");

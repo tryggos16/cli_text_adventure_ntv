@@ -1,32 +1,33 @@
 import '../choices/living_room_choices.dart';
+import '../npc/brown_rabbit_npc.dart';
 
 class TV {
   final String roomId;
   bool beenToTV;
-  bool tvIsOn;
+  bool hasPressedPowerButton;
 
-  TV(this.roomId, this.beenToTV, this.tvIsOn);
+  TV(this.roomId, this.beenToTV, this.hasPressedPowerButton);
 
   void moveBack() {
     inLivingRoom();
   }
 
-  void turnOnOffHud() {
-    if(tvIsOn == false) {
-      print("2. turn the TV ON");
-
-    } else {
-      print("2. turn the TV OFF");
+  void pressPowerButton() {
+    if(hasPressedPowerButton == false && brownRabbit.dialogDone == true) {
+      print("Brown Rabbit: You can't turn off the TV, now move so i can see.");
+      hasPressedPowerButton = true;
     }
+    else {
+      print("Nothing happened, the TV is still turned On.");
+      hasPressedPowerButton = true;
+    }
+
   }
 
-  void turnPower() {
-    if(tvIsOn == false) {
-      print("you turned the TV ON");
-      tvIsOn = true;
-    } else {
-      print("you turned the TV OFF");
-      tvIsOn = false;
+
+  void hasPressedPowerButtonCheck() {
+    if(hasPressedPowerButton == false) {
+      print("2. Press the power button");
     }
   }
 

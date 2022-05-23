@@ -19,10 +19,13 @@ void byRedButton() {
       mainHallRedButton.pressButton();
     } else if(player.location == mainHallRedButton.roomId && player.inventory.contains(keyCardScanner.itemId) && input == "3") {
       keyCardScanner.putInPlace();
-    } else if(player.inventory.contains(keyCard.itemId) && mainHallRedButton.keyCardScannerInPlace == true && input == "4") {
+    } else if(player.inventory.contains(keyCard.itemId) && mainHallRedButton.keyCardScannerInPlace == true && input == "3") {
       keyCard.use();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

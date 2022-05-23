@@ -28,9 +28,11 @@ void inLivingRoom() {
       }
     } else if(basementKey.hasTakenItem == false && input == "4") {
       livingRoom.takeBasementKey();
-    }
-    else if(input == "i") {
+
+    } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

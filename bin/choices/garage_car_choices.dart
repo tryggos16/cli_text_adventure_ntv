@@ -17,8 +17,11 @@ void byGarageCar() {
       garageCar.openCarDoor();
     } else if(input == "3") {
       garageCar.openCarHood();
+
     } else if(input == "i") {
       player.openInventory();
+    } else if(input == "help") {
+      player.helpInfo();
     }
     else {
       print("Invalid");

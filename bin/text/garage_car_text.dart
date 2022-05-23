@@ -1,3 +1,3 @@
 
 
-List<String> garageCarText = ["""it's a old ford mustang, seems like it brand new"""];
+List<String> garageCarText = ["""it's a old ford mustang, Looks brand new"""];
