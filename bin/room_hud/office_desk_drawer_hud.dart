@@ -1,4 +1,4 @@
-import '../items/noteBook.dart';
+import '../items/notebook.dart';
 import '../player/player_stats.dart';
 import '../rooms/office_desk_drawer.dart';
 

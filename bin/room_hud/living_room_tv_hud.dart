@@ -14,6 +14,7 @@ void tvHud() {
     print("----------");
   }
   else {
+    print("Pokemon episode 1 is playing on TV");
     print("there is a capital 'T' carved into the TV");
     tv.beenToTV = true;
     print("----------");

@@ -1,5 +1,5 @@
 import '../choices/office_desk_choices.dart';
-import '../items/noteBook.dart';
+import '../items/notebook.dart';
 import '../player/player_stats.dart';
 
 class DeskDrawer {

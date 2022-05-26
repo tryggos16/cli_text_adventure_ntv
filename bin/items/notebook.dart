@@ -7,7 +7,7 @@ class NoteBook {
   NoteBook(this.itemId, this.hasTakenItem);
 
   void viewNoteBook() {
-    print("you open the NoteBook and see nothing");
+    print("you open the NoteBook. It's blank");
   }
 
   // this will show up on the ( officeDeskDrawerHud )

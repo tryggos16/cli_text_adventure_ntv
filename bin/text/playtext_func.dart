@@ -7,7 +7,8 @@ void playText(List<String> text) {
     print("${textLine + 1} / ${text.length}");
     print(text[textLine]);
     textLine++;
-    String? pause = stdin.readLineSync();
+    stdin.readLineSync();
+
 
   }
 }

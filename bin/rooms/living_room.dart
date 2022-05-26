@@ -26,7 +26,7 @@ class LivingRoom {
   }
 
   void moveToTv() {
-    print("you walk over to the Tv");
+    print("you walk over to the TV");
     byTv();
   }
 

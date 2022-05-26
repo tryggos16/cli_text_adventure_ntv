@@ -5,7 +5,7 @@ import '../items/carrot_item.dart';
 import '../items/gumball_item.dart';
 import '../items/keycard_item.dart';
 import '../items/lamp_item.dart';
-import '../items/noteBook.dart';
+import '../items/notebook.dart';
 import '../items/oil_item.dart';
 import '../items/picture_item.dart';
 import '../items/smallbox_item.dart';
@@ -123,7 +123,7 @@ class Player {
 
   void helpInfo() {
     print("to open Inventory press ( i ).");
-    print("To Use, Drop, or Break Items. Type in the name of the Item. - CaseSensitive -");
+    print("To Use, Drop, or Break Items. Type in the name of the Item. - Case Sensitive -");
   }
 
 
