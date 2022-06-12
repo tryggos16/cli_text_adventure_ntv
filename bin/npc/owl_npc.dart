@@ -10,7 +10,7 @@ class Owl {
 
 
   void cheaterCheck() {
-    if(garageCar.checkedHood == true && openFrig.beenToOpenFridge == true && diningRoom.beenToDiningRoom == true && tv.beenToTV == true) {
+    if(garageCar.checkedHood == true && openFridge.beenToOpenFridge == true && diningRoom.beenToDiningRoom == true && tv.beenToTV == true) {
       playText(owlTextGameDoneA);
     }
     else {

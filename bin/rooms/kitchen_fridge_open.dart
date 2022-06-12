@@ -30,4 +30,4 @@ class OpenFridge {
   }
 
 }
-OpenFridge openFrig = OpenFridge("Kitchen Frig",false);
+OpenFridge openFridge = OpenFridge("Kitchen Fridge",false);

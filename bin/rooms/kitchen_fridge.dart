@@ -4,12 +4,12 @@ import '../choices/kitchen_fridge_open_choices.dart';
 import '../items/carrot_item.dart';
 import 'kitchen_fridge_open.dart';
 
-class KitchenFrig {
+class KitchenFridge {
   final String roomId;
   bool bennToKitchenFrig;
   bool carrotInFridge;
 
-  KitchenFrig(this.roomId, this.bennToKitchenFrig, this.carrotInFridge);
+  KitchenFridge(this.roomId, this.bennToKitchenFrig, this.carrotInFridge);
 
   void goBack() {
     print("you move away from the Fridge");
@@ -22,14 +22,15 @@ class KitchenFrig {
       insideKitchenFridge();
       String? input = stdin.readLineSync();
       if(input == "1") {
-        openFrig.takeOrClose();
+        openFridge.takeOrClose();
       } else if(input == "2") {
         inKitchen();
       }
     } else {
       print("the Fridge is empty.");
+      insideKitchenFridge();
     }
   }
 
 }
-KitchenFrig kitchenFrig = KitchenFrig("Kitchen Fridge", false, true);
+KitchenFridge kitchenFrig = KitchenFridge("Kitchen Fridge", false, true);

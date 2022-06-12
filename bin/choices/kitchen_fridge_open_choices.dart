@@ -7,14 +7,14 @@ import '../rooms/kitchen_fridge_open.dart';
 // these are all the choices you can make while looking into ( KitchenFridge )
 void insideKitchenFridge() {
   while(true) {
-    player.location = openFrig.roomId;
+    player.location = openFridge.roomId;
     insideFrigHud();
     String? input = stdin.readLineSync();
 
     if(input == "1") {
-      openFrig.moveBack();
+      openFridge.moveBack();
     } else if(carrot.hasTakenItem == false && input == "2") {
-      openFrig.takeCarrot();
+      openFridge.takeCarrot();
 
     } else if(input == "i") {
       player.openInventory();
